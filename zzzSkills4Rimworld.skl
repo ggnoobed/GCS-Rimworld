@@ -1,0 +1,333 @@
+{
+	"type": "skill_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "b8fdc0b9-ff54-4663-a850-0020e4eedf03",
+			"type": "skill",
+			"name": "Animals!",
+			"notes": "Animal Handling, Falconry, Mimicry, Packing, Riding",
+			"tags": [
+				"Animals",
+				"Nature"
+			],
+			"difficulty": "iq/w",
+			"points": 1
+		},
+		{
+			"id": "665ea556-7b37-43bc-99ae-62c8392a0313",
+			"type": "skill",
+			"name": "Artillery!",
+			"notes": "Artillery",
+			"tags": [
+				"Weapons"
+			],
+			"difficulty": "dx/w",
+			"points": 1
+		},
+		{
+			"id": "42a4a648-6859-4156-919a-edb83ff82c1f",
+			"type": "skill",
+			"name": "Artist!",
+			"notes": "Artist, Dancing, Makeup, Writing, Connoisseur",
+			"tags": [
+				"Practical",
+				"Recreation"
+			],
+			"difficulty": "iq/w",
+			"points": 1
+		},
+		{
+			"id": "7ab335ec-801f-4327-a812-7a1cdd22a95d",
+			"type": "skill",
+			"name": "Blunt!",
+			"notes": "Axe/Mace, Broadsword, Flail, Shortsword, Small-sword, Staff, Thrown Weapon (Blunt), Two-Handed Axe/Mace, Two-Handed Flail, and Two-Handed Sword for crushing weapons only.",
+			"tags": [
+				"Weapons"
+			],
+			"difficulty": "dx/w",
+			"points": 1
+		},
+		{
+			"id": "70e87480-80eb-4b81-9d10-134944c3c7b3",
+			"type": "skill",
+			"name": "Bow!",
+			"notes": "Blowpipe, Bow, Crossbow, Sling, Spear Thrower, and Thrown Weapon (Dart), as well as all related Fast-Drawskills.",
+			"tags": [
+				"Weapons"
+			],
+			"difficulty": "dx/w",
+			"points": 1
+		},
+		{
+			"id": "9e2f8d57-a8ca-4a3c-afb5-4b6d0f270c67",
+			"type": "skill",
+			"name": "Computers!",
+			"notes": "Computer Hacking, Computer Operation, Computer Programming, Cryptography, Electronics Repair (Computers), and Expert Skill (Computer Security). Can also stand in for Accounting, Cartography, Forgery, Research, or Speed-Reading when creating, seeking, reading, or altering digital files via computer.",
+			"tags": [
+				"Scientific"
+			],
+			"difficulty": "iq/w",
+			"points": 1
+		},
+		{
+			"id": "b6fb8de0-97ff-472b-afc9-e0d6f631c514",
+			"type": "skill",
+			"name": "Construction!",
+			"notes": "Carpentry, Masonry, Architecture, Engineer",
+			"tags": [
+				"Construction",
+				"Crafting"
+			],
+			"difficulty": "iq/w",
+			"points": 1
+		},
+		{
+			"id": "7a2306c5-5d5c-4e86-8643-0141b03bf896",
+			"type": "skill",
+			"name": "Conversation!",
+			"notes": "Fast-Talk, Detect Lies, Intimidation, Bartender, Carrousing",
+			"tags": [
+				"Practical",
+				"Recreation",
+				"Social"
+			],
+			"difficulty": "iq/w",
+			"points": 1
+		},
+		{
+			"id": "61e197e4-d54c-4200-8a84-7d6ce22d78cb",
+			"type": "skill",
+			"name": "Cooking",
+			"reference": "B185",
+			"notes": "Not a Wildcard",
+			"tags": [
+				"Practical"
+			],
+			"difficulty": "iq/a",
+			"points": 1
+		},
+		{
+			"id": "6db4824f-0a8f-4c0a-8abe-366dfff36ae3",
+			"type": "skill",
+			"name": "Crafting!",
+			"notes": "Jeweler, Armoury, Electronics Repair, Leatherworking, Sewing",
+			"tags": [
+				"Crafting"
+			],
+			"difficulty": "iq/w",
+			"points": 1
+		},
+		{
+			"id": "7437fb53-b9ad-4fd5-b473-aec45dfa9d19",
+			"type": "skill",
+			"name": "Doctor!",
+			"notes": "First Aid, Diagnosis, Pharmacy, Physician, Surgery, Veterinary, Electronics Operation (Medical)",
+			"tags": [
+				"Doctor"
+			],
+			"difficulty": "iq/w",
+			"points": 1
+		},
+		{
+			"id": "0844a0f3-8989-438e-92e6-720a2c2f4c57",
+			"type": "skill",
+			"name": "Drugs!",
+			"notes": "Chemistry, Pharmacy (Synthetic) for drug manufacturing, Electronics Operation (Drug Lab)",
+			"tags": [
+				"Scientific"
+			],
+			"difficulty": "iq/w",
+			"points": 1
+		},
+		{
+			"id": "a32adfaa-ef98-4f1e-bb60-da42b1e7fba7",
+			"type": "skill",
+			"name": "Explosives!",
+			"notes": "Engineer (Combat), Explosives (any), and Traps; Architecture and Mechanic when planting bombs in buildings and vehicles, respectively; Throwing (Explosives), Armoury (any), Guns (Grenade Launcher and RPG), Artillery (any), and Expert Skill (Military Science) when dealing with explosive weapons; Chemistry to manufacture explosives; and Smuggling to hide bombs.",
+			"tags": [
+				"Weapons"
+			],
+			"difficulty": "iq/w",
+			"points": 1
+		},
+		{
+			"id": "f7bfca53-30d4-4a29-98e9-2ad160e5da1a",
+			"type": "skill",
+			"name": "Farming!",
+			"notes": "Farming, Gardening, Electronics Operation (Agriculture)",
+			"tags": [
+				"Nature"
+			],
+			"difficulty": "iq/w",
+			"points": 1
+		},
+		{
+			"id": "e2f991dc-f694-461f-893f-7c7d80aa02b6",
+			"type": "skill",
+			"name": "Gun!",
+			"notes": "All Beam Weapons, Gunner, Guns, and Liquid Projector specialties, and all associated Fast-Draw specialties (Ammo, Long Arm, and Pistol). Make an IQ-based roll for any use of Armoury (Heavy Weapons or Small Arms).",
+			"tags": [
+				"Weapons"
+			],
+			"difficulty": "dx/w",
+			"points": 1
+		},
+		{
+			"id": "fb0c3f93-9694-4ad3-874f-c2dc98440f75",
+			"type": "skill",
+			"name": "History!",
+			"notes": "All specialties of Anthropology, Archaeology, History, and Paleontology; the historical versions of Area Knowledge, Current Affairs, Geography, Heraldry, and Sociology; and the “academic” and historical elements of the various artistic skills.",
+			"tags": [
+				"Scientific"
+			],
+			"difficulty": "iq/w",
+			"points": 1
+		},
+		{
+			"id": "1c71218b-1963-47c9-8710-a8285d74188c",
+			"type": "skill",
+			"name": "Leadership!",
+			"notes": "Administration, Diplomacy, Current Affairs (Politics), Leadership, Public Speaking",
+			"tags": [
+				"Practical"
+			],
+			"difficulty": "iq/w",
+			"points": 1
+		},
+		{
+			"id": "d88f629a-472a-4175-b041-775561a3bdff",
+			"type": "skill",
+			"name": "Mechanoids!",
+			"notes": "Any crafting, construction, and computer rolls relating to mechanoids.",
+			"tags": [
+				"Crafting",
+				"Scientific"
+			],
+			"difficulty": "iq/w",
+			"points": 1
+		},
+		{
+			"id": "16546e9f-b6b1-4ad9-9e80-632173b86b36",
+			"type": "skill",
+			"name": "Merchant!",
+			"notes": "Accounting, Administration, Economics, Finance, Merchant",
+			"tags": [
+				"Social"
+			],
+			"difficulty": "iq/w",
+			"points": 1
+		},
+		{
+			"id": "8eec31bd-d52a-4480-8c39-1838956e0a1b",
+			"type": "skill",
+			"name": "Mining!",
+			"notes": "Prospecting, Engineer (Mining), any rolls related to mining/drilling",
+			"tags": [
+				"Practical"
+			],
+			"difficulty": "dx/w",
+			"points": 1
+		},
+		{
+			"id": "9f3debc3-d245-4439-a863-9b228ce988ab",
+			"type": "skill",
+			"name": "Nature!",
+			"notes": "Fishing, Mimicry, Naturalist, Survival, Weather Sense, Herb Lore",
+			"tags": [
+				"Nature",
+				"Practical"
+			],
+			"difficulty": "iq/w",
+			"points": 1
+		},
+		{
+			"id": "ffc0938e-2828-4e02-af63-a9ae79fc22d7",
+			"type": "skill",
+			"name": "Negotiating!",
+			"notes": "Diplomacy, Intimidation, Panhandling, Propaganda",
+			"tags": [
+				"Social"
+			],
+			"difficulty": "iq/w",
+			"points": 1
+		},
+		{
+			"id": "37f55e22-2b7d-4175-90ca-91e52b5a7437",
+			"type": "skill",
+			"name": "Researching!",
+			"notes": "Anthropology, Archaeology, Cartography, Economics, Geography, Heraldry, History, Literature, Occultism, Philosophy, Public Speaking, Sociology, Teaching, and Theology.",
+			"tags": [
+				"Scientific"
+			],
+			"difficulty": "iq/w",
+			"points": 1
+		},
+		{
+			"id": "73e9e309-3226-4940-8f8c-75063c9335c6",
+			"type": "skill",
+			"name": "Science!",
+			"notes": "Astronomy, Bioengineering, Biology, Chemistry, Engineer, Geology, Mathematics, Metallurgy, Meteorology, Naturalist, Paleontology, Physics, Psychology, etc.",
+			"tags": [
+				"Scientific"
+			],
+			"difficulty": "iq/w",
+			"points": 1
+		},
+		{
+			"id": "c7b27499-5d12-4fd2-aeb5-4c46d66c5ff2",
+			"type": "skill",
+			"name": "Smithing!",
+			"notes": "Smithing of all types, also for crafting metal items",
+			"tags": [
+				"Crafting"
+			],
+			"difficulty": "iq/w",
+			"points": 1
+		},
+		{
+			"id": "d422f8f6-bde4-431f-9b56-074f8f99b532",
+			"type": "skill",
+			"name": "Sword!",
+			"notes": "Axe/Mace, Broadsword, Knife, Polearm, Rapier, Saber, Shortsword, Smallsword, Spear, Two-Handed Axe/Mace, Throwing (Bladed), Two-Handed Sword, or any other skill when wielding an edged melee weapon that does cutting, impaling, or piercing damage – but not for crushing or ranged attacks.",
+			"tags": [
+				"Weapons"
+			],
+			"difficulty": "dx/w",
+			"points": 1
+		},
+		{
+			"id": "bf7b70d8-c63a-4fd8-8afc-686675992fd5",
+			"type": "skill",
+			"name": "Thief!",
+			"notes": "Climbing, Escape, Filch, Forced Entry, Pickpocket, Sleight of Hand, and Stealth. Make an IQ-based roll for Holdout, Lockpicking, Shadowing, Smuggling, Streetwise, or Traps, or for Gesture to signal allies",
+			"tags": [
+				"Practical"
+			],
+			"difficulty": "dx/w",
+			"points": 1
+		},
+		{
+			"id": "75950c26-1ee3-457c-bcb4-96b6371b8303",
+			"type": "skill",
+			"name": "Vehicles!",
+			"notes": "Bicycling and Driving (all specialties). Permits an IQ-based roll for Teamster. Allows rolls to operate any weapons system installed in a land vehicle, and for attack maneuvers with the vehicle itself.",
+			"tags": [
+				"Vehicles"
+			],
+			"difficulty": "iq/w",
+			"points": 1
+		},
+		{
+			"id": "8e976c06-05c3-46d8-8a83-ceac0c7c42d6",
+			"type": "skill",
+			"name": "Warden!",
+			"notes": "Criminology, Search, Savoir-Faire (Police), Law, Interrogation",
+			"tags": [
+				"Social"
+			],
+			"difficulty": "iq/w",
+			"points": 1
+		}
+	]
+}

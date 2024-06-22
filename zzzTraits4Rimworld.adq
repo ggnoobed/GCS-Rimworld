@@ -1,0 +1,212 @@
+{
+	"type": "trait_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "aa70bca0-990c-47b3-8625-e7590c9be650",
+			"type": "trait",
+			"name": "Psychic Sensitivity",
+			"tags": [
+				"Psychic"
+			],
+			"modifiers": [
+				{
+					"id": "84153062-5969-4185-a894-689fff28ca45",
+					"type": "modifier",
+					"name": "Deaf",
+					"cost": 1,
+					"cost_type": "points",
+					"disabled": true,
+					"features": [
+						{
+							"type": "spell_bonus",
+							"match": "all_colleges",
+							"name": {
+								"compare": "is"
+							},
+							"amount": -1
+						},
+						{
+							"type": "conditional_modifier",
+							"situation": "onto others casting psycasts on you (including buffs from allies)",
+							"amount": -1
+						}
+					]
+				},
+				{
+					"id": "a2cecccc-c39d-4883-a40b-210647cd65ee",
+					"type": "modifier",
+					"name": "Dull",
+					"cost": 1,
+					"cost_type": "points",
+					"disabled": true,
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"situation": "onto others casting psycasts on you (including buffs from allies)",
+							"amount": 1
+						}
+					]
+				},
+				{
+					"id": "a1d93f61-fc6e-43bf-b69a-e88643df81c8",
+					"type": "modifier",
+					"name": "Normal",
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "b90d6792-2ea1-4fee-9177-e29fec393cd1",
+					"type": "modifier",
+					"name": "Sensitive",
+					"cost": 1,
+					"cost_type": "points",
+					"disabled": true,
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"situation": "onto others casting psycasts on you",
+							"amount": 1
+						}
+					]
+				},
+				{
+					"id": "913103da-c121-4149-b735-45a17cd478a7",
+					"type": "modifier",
+					"name": "Hypersensitive",
+					"cost": 1,
+					"cost_type": "points",
+					"disabled": true,
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"situation": "onto all others casting psycasts on you",
+							"amount": 1
+						},
+						{
+							"type": "spell_bonus",
+							"match": "all_colleges",
+							"name": {
+								"compare": "is"
+							},
+							"amount": 1
+						}
+					]
+				}
+			],
+			"calc": {
+				"points": 0
+			}
+		},
+		{
+			"id": "7d2b14e9-62ba-4497-a46e-cb1faa2fe75f",
+			"type": "trait",
+			"name": "Psylink",
+			"notes": "Allows psypowers, and you can also add one level of this to your power SL (like magery)",
+			"tags": [
+				"Psychic"
+			],
+			"base_points": 5,
+			"levels": 1,
+			"points_per_level": 10,
+			"features": [
+				{
+					"type": "spell_bonus",
+					"match": "all_colleges",
+					"name": {
+						"compare": "is"
+					},
+					"amount": 1
+				}
+			],
+			"can_level": true,
+			"calc": {
+				"points": 15
+			}
+		},
+		{
+			"id": "4b790ffd-f49b-4352-b665-31979a34aa70",
+			"type": "trait",
+			"name": "Increased Threshold",
+			"notes": "Increases your maximum magic threshold tally by five points.",
+			"tags": [
+				"Psychic"
+			],
+			"levels": 1,
+			"points_per_level": 5,
+			"can_level": true,
+			"calc": {
+				"points": 5
+			}
+		},
+		{
+			"id": "4ee4a37c-4290-42d5-9880-8435745d1e81",
+			"type": "trait",
+			"name": "Decreased Threshold",
+			"notes": "Decreases your maximum magic threshold tally by five points.",
+			"tags": [
+				"Psychic"
+			],
+			"levels": 1,
+			"points_per_level": -5,
+			"can_level": true,
+			"calc": {
+				"points": -5
+			}
+		},
+		{
+			"id": "798763e5-98d3-495a-b1a2-7ee5595a5b10",
+			"type": "trait",
+			"name": "Safer Magical Excess",
+			"notes": "With one level of this advantage, your calamity checks are at +1 per 10 points of excess tally instead of +1 per 5. Each additional level doubles this effect: +1 per 20, +1 per 40, etc.",
+			"tags": [
+				"Psychic"
+			],
+			"levels": 1,
+			"points_per_level": 10,
+			"can_level": true,
+			"calc": {
+				"points": 10
+			}
+		},
+		{
+			"id": "6e1e83db-cde4-494d-ba34-67e268cc5fa8",
+			"type": "trait",
+			"name": "Weapons Permit",
+			"notes": "Allows weapons up to LC3",
+			"tags": [
+				"Permit"
+			],
+			"base_points": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "f6472080-b831-4d3e-92db-c0ab708ae571",
+			"type": "trait",
+			"name": "Armor Permit",
+			"notes": "Allows armor up to LC3",
+			"tags": [
+				"Permit"
+			],
+			"base_points": 1,
+			"calc": {
+				"points": 1
+			}
+		},
+		{
+			"id": "f2885a93-1c8c-4b4f-918e-4cff72a01aaa",
+			"type": "trait",
+			"name": "Milsim-Gear Permit",
+			"notes": "Allows misc items up to LC3",
+			"tags": [
+				"Permit"
+			],
+			"base_points": 1,
+			"calc": {
+				"points": 1
+			}
+		}
+	]
+}

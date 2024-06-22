@@ -1,0 +1,1435 @@
+{
+	"type": "spell_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "a93c1560-73f7-41b4-8845-20943b456b70",
+			"type": "spell",
+			"name": "Enchant Quality",
+			"notes": "Psychically manipulate a weapon's quality to turn it into a Fine weapon. If critically failed, the weapon turns into a Cheap (Clunky) weapon. If the weapon is ranged, then the caster can decide if it is Accurate or Reliable (HT79). If the weapon isn't a normal weapon, it brings it back up to the next level capping at Fine. (e.g. Cheap -\u003e Normal)",
+			"tags": [
+				"Technomancy"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Technomancy"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "2",
+			"casting_time": "10 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Psylink"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "5b1d1023-f6b0-4f65-809e-3d2791e9d11a",
+			"type": "spell",
+			"name": "Mend",
+			"notes": "Psychically manipulate an object or small structure to restore it to peak condition. How much it is mended is GM choice, although he should incorporate your Psylink, Psychic Sensitivity, and MoS. Medium or larger buildings cannot be mended, and even small buildings will be barely repaired.",
+			"tags": [
+				"Technomancy"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Technomancy"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "3",
+			"casting_time": "10 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Psylink"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "10efa4b2-b3aa-45c1-aaa9-e4e0b16921e4",
+			"type": "spell",
+			"name": "Mindpilot",
+			"notes": "Connect your mind to any vehicle you are controlling. You link your mind to the vehicle, and gain a plus two to any checks to operate the vehicle while you upkeep the cast.",
+			"tags": [
+				"Technomancy"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Technomancy"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "2",
+			"maintenance_cost": "1",
+			"casting_time": "1 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Psylink"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "94d004be-6ae0-40d1-b91f-7dabf72ca82e",
+			"type": "spell",
+			"name": "Haywire",
+			"notes": "Target any automated defense system, and it will be scrambled and not be able to fire. The cast can last up to ten seconds with a one tally upkeep, but can also be ended early if the user so chooses.",
+			"tags": [
+				"Technomancy"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Technomancy"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "1",
+			"maintenance_cost": "1",
+			"casting_time": "2 sec",
+			"duration": "10 sec",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Psylink"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 2
+						}
+					}
+				]
+			},
+			"weapons": [
+				{
+					"id": "835c866a-f24d-4f72-bd32-d197012f64dd",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": ""
+					},
+					"accuracy": "4",
+					"range": "25",
+					"rate_of_fire": "1",
+					"defaults": [
+						{
+							"type": "iq",
+							"name": "Throwing"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "f7c097ed-3298-4222-a053-3855e3121bc5",
+			"type": "spell",
+			"name": "Power",
+			"notes": "For two days, power any system by itself for an expensive tally cost. Works great for any psychic navagators, mechanitors, or any other psychics working in a high-power environment.",
+			"tags": [
+				"Technomancy"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Technomancy"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "12",
+			"casting_time": "20 sec",
+			"duration": "2 days",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Psylink"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 2
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "ddbe5ece-15ac-4158-8607-51d32d587d9e",
+			"type": "spell",
+			"name": "Rock Construct",
+			"notes": "Compress a portion of the caster's tally into metaphysical crystals, then implanting them into rocks. This creates a construct that is able to perform basic chores. While this cast is active, the caster gains one level of decreased threshold. If the caster crushes the crystals or the construct is destroyed, the cast ends and the decreased threshold is negated.",
+			"tags": [
+				"Technomancy"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Technomancy"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "5",
+			"casting_time": "15 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Enchant Quality"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Psylink"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 3
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "57cd66d6-2311-44e9-a417-2e5f8220d29e",
+			"type": "spell",
+			"name": "Metal Construct",
+			"notes": "Compress a portion of the caster's tally into metaphysical crystals, then implanting them into metal slag. This creates a construct that defends the caster. While this cast is active, the caster gains one level of decreased threshold. If the caster crushes the crystals or the construct is destroyed, the cast ends and the decreased threshold is negated.",
+			"tags": [
+				"Technomancy"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Technomancy"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "5",
+			"casting_time": "15 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Rock Construct"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Psylink"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 3
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "57084976-e3f4-412e-8a12-06eec46af923",
+			"type": "spell",
+			"name": "Craft Psyring",
+			"notes": "Requires a piece of Eltex. The caster imbues a piece of eltex with any cast they have learned while they psychically turn the eltex into a ring. While someone wears the ring, they can cast the imbued cast, although if they do not meet the psylink requirement, they must add half of the casting cost (rounded up) onto itself per level of missing psycast. (e.g. a ring with the Power cast would cost 18 instead of 12 if the user only had level one psylink)",
+			"tags": [
+				"Technomancy"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Technomancy"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "10",
+			"casting_time": "30 sec",
+			"duration": "Permanent",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Power"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Psylink"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 4
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "be07581e-e1d2-4775-9604-85cec6724f6c",
+			"type": "spell",
+			"name": "Word of Progress",
+			"notes": "For one day, the target of your cast has an additional plus two to any science and research checks. An alternative ability is to give plus one to the target for a set goal that is achievable in the day (e.g. Mine out this vein of ore, Craft this set of armor, Fix this battery, etc). The effect fades when the target achieves their goal or the day ends.",
+			"tags": [
+				"Technomancy"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Technomancy"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "5",
+			"casting_time": "5 sec",
+			"duration": "1 day",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Steel Construct"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Psylink"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 4
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "20a3b19f-91f2-4151-a544-f5f918a150b0",
+			"type": "spell",
+			"name": "Psy-Hack",
+			"notes": "Target any machine that is not controlled by Artificial Intelligence. You gain a plus three to all rolls to hack it. Most spies in the Imperial Army have Psyrings of this power and are trained to use it so they can infiltrate enemy bases with ease.",
+			"tags": [
+				"Technomancy"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Technomancy"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "6",
+			"casting_time": "3 sec",
+			"duration": "30 sec",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Haywire"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Psylink"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 5
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "abb731d3-fc65-4918-a81d-8066ce9d9a89",
+			"type": "spell",
+			"name": "Reverse Engineer",
+			"notes": "Take any object. After you cast this cast, you reverse engineer it and learn how to make it, as long as the object is within two TL levels of you. After you reverse engineer it the item is destroyed and the caster must make a HT-4 roll to not fall into a six hour coma.",
+			"tags": [
+				"Technomancy"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Technomancy"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "20",
+			"casting_time": "5 sec",
+			"duration": "1 day",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Word of Progress"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Psylink"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 5
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "33104ea1-44ac-4586-ad3c-a9f8e5877510",
+			"type": "spell",
+			"name": "Plant Timeskip",
+			"notes": "Caster touches the soil, and in a 5x5 radius, grows all plants to their fully grown state. It ages the caster by a full year when casted. The aging can cause negative effects like cataracts, frail backs, or loss of hearing.",
+			"tags": [
+				"Chronomancy"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Chronomancy"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "3",
+			"casting_time": "5 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Psylink"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "798a04a1-6b52-4862-a565-f297a4eb1633",
+			"type": "spell",
+			"name": "Word of Foretelling",
+			"notes": "Psychic whispers of things to come. Nearby allies are inspired, neutral or friendly NPCs improve relations, prisoners lose their resistance and enemies retreat if there is a raid. Ages the caster by one full year.",
+			"tags": [
+				"Chronomancy"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Chronomancy"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "5",
+			"casting_time": "3 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Timeskip Meditation"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Psylink"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "8e0893c1-b8c7-4364-b3ba-70edff5edf98",
+			"type": "spell",
+			"name": "Timeskip Meditation",
+			"notes": "After a one hour meditation period, the caster regains all lost tally points, but ages one biological year. The aging can cause negative effects like cataracts, frail backs, or loss of hearing.",
+			"tags": [
+				"Chronomancy"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Chronomancy"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "0",
+			"casting_time": "1 hr",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Psylink"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "60d6506a-8938-47ae-a54c-d028f5a7a147",
+			"type": "spell",
+			"name": "Craft Timeskip",
+			"notes": "Using very precise timeskipping, moves the desired item to its finished state as if the creator had continued working on it. Ages the caster by 3 biological years.",
+			"tags": [
+				"Chronomancy"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Chronomancy"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "5",
+			"casting_time": "3 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Plant Timeskip"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Psylink"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 2
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "1bf474a6-a3f3-488d-9bc7-e93ff31deaf6",
+			"type": "spell",
+			"name": "Age",
+			"notes": "Very inefficiently siphons life force from a living target, de-aging the caster by 2 years and aging the other by 10. Very debilitating aftereffects for the victim and considered a hostile action by allies.",
+			"tags": [
+				"Chronomancy"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Chronomancy"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "5",
+			"casting_time": "10 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Word of Foretelling"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Craft Timeskip"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Psylink"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 2
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "ac9ec0d0-7618-4880-8b6c-1f6e35b54019",
+			"type": "spell",
+			"name": "Season Timeskip",
+			"notes": "Locks the entire planet into a season-long psychic slowdown, effectively skipping forward a season. Nigh instantaneous, very strenuous and puts the caster in a coma. Ages the caster by three biological years.",
+			"tags": [
+				"Chronomancy"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Chronomancy"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "15",
+			"casting_time": "10 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Age"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Plant Timeskip"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Craft Timeskip"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Psylink"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 4
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "684c7086-f120-4950-9850-b7ec192b3b54",
+			"type": "spell",
+			"name": "Time Sphere",
+			"notes": "Psychically compresses the flow of time in an area. Rapidly ages living creatures, plants flourish and wither, \u0026 structures start to disintegrate from the bizarre stress. Speeds up all aging by ten times the speed.",
+			"tags": [
+				"Chronomancy"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Chronomancy"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "20",
+			"casting_time": "30 sec",
+			"duration": "1 day",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Season Timeskip"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Psylink"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 5
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "05e09cef-9229-449a-96ef-5698a5e667db",
+			"type": "spell",
+			"name": "Time Reversal",
+			"notes": "Inefficiently siphons life force to a living target, aging the caster by 5 years and de-aging the other by 10. Has a minimum age of 13, removes age related penalties, and puts the caster in a coma for 1d days.",
+			"tags": [
+				"Chronomancy"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Chronomancy"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "15",
+			"casting_time": "10 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Age"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Psylink"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 5
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "e15b4204-bf14-4ad6-8441-2ccdad123666",
+			"type": "spell",
+			"name": "Timequake",
+			"notes": "Find a discontinuity in the psychic field and compress it, releasing a massive temporal disturbance. Every creature in range but outside of the safe inner circle will experience rapid aging and structures will warp. Afterwards, the caster goes into a 5 day psychic coma. The timequake echoes will inflict pain on everyone for kilometers around, causing diplomatic consequences with all nearby settlements.",
+			"tags": [
+				"Chronomancy"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Chronomancy"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "25",
+			"casting_time": "15 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Time Reversal"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Timesphere"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Season Timeskip"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Psylink"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 6
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "9de45a44-e8ef-4c6e-8f69-8364debbfd1d",
+			"type": "spell",
+			"name": "Solar Pinhole",
+			"notes": "Generate a microscopic skipgate linked to the core of a nearby star for three days. Solar material leaks through the pinprick in spacetime, illuminating and warming the surrounding area until it closes.",
+			"tags": [
+				"Skipmancy"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Skipmancy"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "1",
+			"casting_time": "5 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Psylink"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "6712eb52-d81c-4747-8ac7-8b266a2d8e6e",
+			"type": "spell",
+			"name": "Chunkskip",
+			"notes": "Skip a couple large portions of rock, slag, or otherwise debris to form a two yard long, one yard thick piece of above-the-waist high cover. The debris stays in position until forcibly dismantled.",
+			"tags": [
+				"Skipmancy"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Skipmancy"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "2",
+			"casting_time": "5 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Psylink"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 2
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "5dc3cd93-8aac-43b6-bf2e-f74174a2d91c",
+			"type": "spell",
+			"name": "Dampskip",
+			"notes": "Skip a gallon of water onto a nearby surface, dousing it with water. Primarily used for extinguishing fires, but can be used to get a gallon of water if needed.",
+			"tags": [
+				"Skipmancy"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Skipmancy"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "3",
+			"casting_time": "3 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Psylink"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 2
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "e3681f41-4cf2-469e-a90c-a22d437313d7",
+			"type": "spell",
+			"name": "Chaosjump",
+			"notes": "Move a random distance away, that you can see, from your current position in a random direction, usually determined by 1d+1 adding your level of psy-sensitivity doubled. (Deaf is -4, Hypersensitive is +4, etc)",
+			"tags": [
+				"Skipmancy"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Skipmancy"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "5",
+			"casting_time": "1 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Psylink"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 2
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "dbffb849-bfbd-42d2-a65a-ef0f597c7e04",
+			"type": "spell",
+			"name": "Skip",
+			"notes": "Teleport yourself or a target to a location of your choice within one hundred yards that you can see. You cannot skip yourself and another person at the same time, and someone who isn't yourself can only be skipped if you can touch them. Most consider this a hostile action.",
+			"tags": [
+				"Skipmancy"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Skipmancy"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "10",
+			"casting_time": "5 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Psylink"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 3
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "04b257be-bc5d-465a-8c8b-0496ecddf08b",
+			"type": "spell",
+			"name": "Wallraise",
+			"notes": "Form a temporary wall by skipping rubble and soil up from deep underground. Range of ten yards, makes a five yard long, two yard high wall of cover. The wall turns into dirt and pebbles six hours after casting, making the cast really only useful for combat.",
+			"tags": [
+				"Skipmancy"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Skipmancy"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "10",
+			"casting_time": "5 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Psylink"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 4
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "ce815f5a-e8fd-4461-be8c-0f5990b4fb1e",
+			"type": "spell",
+			"name": "Smokepop",
+			"notes": "Can be casted anywhere you can see within twenty yards. When casted, a thick cloud of dust and sand rises up from the ground, blinding anyone in the cloud for a short while, and blocking line of site. It makes a large hexlike shape, in a circular formation.",
+			"tags": [
+				"Skipmancy"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Skipmancy"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "3",
+			"casting_time": "1 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Psylink"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 4
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "a39aa389-2fb8-456a-a9fc-2549d467e96c",
+			"type": "spell",
+			"name": "Mass Chaosjump",
+			"notes": "Move up to ten people around you a random distance away, that you can see, from your current position in a random direction, usually determined by 1d+1 adding your level of psy-sensitivity doubled. (Deaf is -4, Hypersensitive is +4, etc)",
+			"tags": [
+				"Skipmancy"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Skipmancy"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "10",
+			"casting_time": "3 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Psylink"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 5
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "c6587e31-1be7-4048-95f0-104f322d1f9e",
+			"type": "spell",
+			"name": "Skipdoor",
+			"notes": "Create a permenant skipdoor, which creates a portal from one place to another, that you have reached before within the reach of this planet. It also can create a portal network. While the first two portals are active, you lose ten max tally points. Creating an extra portal costs another five max tally points. The cast can be canceled at any time, but if someone is in the portal, it skips them to a random location.",
+			"tags": [
+				"Skipmancy"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Skipmancy"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "10",
+			"casting_time": "5 min",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Psylink"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 5
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "158cc459-a3c4-4e11-8b0f-da94caa37230",
+			"type": "spell",
+			"name": "Farskip",
+			"notes": "Skip the caster, along with up to four people standing with them, to a willing ally at a distant location (up one thousand five hundred miles away from your current location). If this check is failed by six or more, every target being warped lands at a random location one hundred miles away from the caster.",
+			"tags": [
+				"Skipmancy"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Skipmancy"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "10",
+			"casting_time": "10 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Psylink"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 5
+						}
+					}
+				]
+			}
+		},
+		{
+			"id": "2c1e2a24-5e24-4ef2-9ef0-f3aac6c7b6bf",
+			"type": "spell",
+			"name": "Shipskip",
+			"notes": "Skips your ship across the galaxy, making it across a maximum of three jumpways. After casting, the caster is knocked out for one day and become temporarily psychically ultrasensitive.",
+			"tags": [
+				"Skipmancy",
+				"Technomancy"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Skipmancy",
+				"Technomancy"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "25",
+			"casting_time": "1.5 hrs",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Mindpilot"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Farskip"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Psylink"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 6
+						}
+					}
+				]
+			}
+		}
+	]
+}

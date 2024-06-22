@@ -1,0 +1,5249 @@
+{
+	"type": "equipment_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "1c6d7a96-60de-454d-ae11-959abff0edae",
+			"type": "equipment",
+			"description": "5.56mm Magazine",
+			"notes": "Loads one 5.56mm Gun",
+			"tech_level": "7",
+			"legality_class": "2",
+			"tags": [
+				"Ammunition"
+			],
+			"quantity": 1,
+			"value": 2,
+			"weight": "0.1 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 2,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "9d049c16-93b8-4b69-92e4-1772be4d78b3",
+			"type": "equipment",
+			"description": "6x24mm Magazine",
+			"notes": "Loads one 6x24mm Gun",
+			"tech_level": "11",
+			"legality_class": "1",
+			"tags": [
+				"Ammunition"
+			],
+			"quantity": 1,
+			"value": 15,
+			"weight": "0.1 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 15,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "c5223484-5747-4b88-a062-0a6651499271",
+			"type": "equipment",
+			"description": "12 Gauge Magazine",
+			"notes": "Loads one 12 Gauge Gun",
+			"tech_level": "7",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition"
+			],
+			"quantity": 1,
+			"value": 1,
+			"weight": "0.1 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 1,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "234a7ec0-ff04-4a1b-bb3a-bce2d408f492",
+			"type": "equipment",
+			"description": ".44 magnum Magazine",
+			"notes": "Loads one .44 magnum Gun",
+			"tech_level": "7",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition"
+			],
+			"quantity": 1,
+			"value": 1,
+			"weight": "0.1 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 1,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "ca3edc71-edd3-4218-ae7a-d2ac7fcce496",
+			"type": "equipment",
+			"description": "9mm Magazine",
+			"notes": "Loads one 9mm Gun",
+			"tech_level": "7",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition"
+			],
+			"quantity": 1,
+			"value": 1,
+			"weight": "0.1 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 1,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "81dfbaed-0460-439b-913c-cbd8a612ee96",
+			"type": "equipment",
+			"description": ".303 Magazine",
+			"notes": "Loads one .303 Gun",
+			"tech_level": "7",
+			"legality_class": "3",
+			"tags": [
+				"Ammunition"
+			],
+			"quantity": 1,
+			"value": 1,
+			"weight": "0.1 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 1,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "7c6c0978-4356-48e0-8634-bd59707e6e80",
+			"type": "equipment_container",
+			"description": "Alicepack",
+			"notes": "A military backpack which can hold up to fourty pounds of gear. Mostly used by hunters.",
+			"tech_level": "7",
+			"legality_class": "4",
+			"tags": [
+				"Survival"
+			],
+			"quantity": 1,
+			"value": 200,
+			"weight": "1.25 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "40 lb"
+						}
+					}
+				]
+			},
+			"equipped": true,
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "1.25 lb"
+			}
+		},
+		{
+			"id": "d1ae3696-9054-414b-86c4-efc8aa2ad257",
+			"type": "equipment",
+			"description": "Armorskin Gland",
+			"notes": "An Armorskin Gland. ",
+			"tech_level": "10",
+			"legality_class": "2",
+			"tags": [
+				"Bionic"
+			],
+			"quantity": 1,
+			"value": 5000,
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "all",
+					"amount": 3
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 5000,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "dc091769-774e-4fe9-a85b-4d6a576f169d",
+			"type": "equipment",
+			"description": "Arrow",
+			"notes": "One arrow, which can be reused.",
+			"tech_level": "0",
+			"legality_class": "4",
+			"tags": [
+				"Ammunition"
+			],
+			"quantity": 1,
+			"value": 1,
+			"weight": "0.1 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 1,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "885b422e-436e-4509-a528-47dfded45b0a",
+			"type": "equipment",
+			"description": "Assault Rifle, 5.56mm",
+			"notes": "A general-purpose gas-operated assault rifle for field or urban combat. It has good range, decent power, and good accuracy.",
+			"tech_level": "8",
+			"legality_class": "2",
+			"tags": [
+				"Firearm"
+			],
+			"quantity": 1,
+			"value": 480,
+			"weight": "6 lb",
+			"weapons": [
+				{
+					"id": "244bbcba-341a-49ad-b4b9-5f87b5c2d360",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "5d"
+					},
+					"strength": "9†",
+					"accuracy": "5",
+					"range": "500/3,500",
+					"rate_of_fire": "12",
+					"shots": "30+1(3)",
+					"bulk": "-4",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						}
+					],
+					"calc": {
+						"damage": "5d pi"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 480,
+				"extended_weight": "6 lb"
+			}
+		},
+		{
+			"id": "26405928-53d1-4b46-8c11-458a3ae17f83",
+			"type": "equipment",
+			"description": "Service Rifle, 5.56mm",
+			"notes": "An old weapon used by militia forces and mercenaries around the galaxy. They are reliable, quick to make, and use the same ammunition as a generic Assault Rifle, but have small magazine sizes and fire slowly compared to the Assault Rifle.",
+			"tech_level": "7",
+			"legality_class": "2",
+			"tags": [
+				"Firearm"
+			],
+			"quantity": 1,
+			"value": 300,
+			"weight": "7.5 lb",
+			"weapons": [
+				{
+					"id": "244bbcba-341a-49ad-b4b9-5f87b5c2d360",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "5d"
+					},
+					"strength": "9†",
+					"accuracy": "5",
+					"range": "500/3,500",
+					"rate_of_fire": "5",
+					"shots": "10+1(3)",
+					"bulk": "-4",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						}
+					],
+					"calc": {
+						"damage": "5d pi"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 300,
+				"extended_weight": "7.5 lb"
+			}
+		},
+		{
+			"id": "145437f9-653c-48e5-8014-fac489e9327d",
+			"type": "equipment",
+			"description": "Autopistol, 9mm",
+			"notes": "A classic autopistol, found in all of your favorite videogames.",
+			"tech_level": "7",
+			"legality_class": "3",
+			"tags": [
+				"Firearm"
+			],
+			"quantity": 1,
+			"value": 140,
+			"weight": "1.1 lb",
+			"weapons": [
+				{
+					"id": "35486582-f473-482d-b783-57fadb958c77",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi+",
+						"base": "2d+1"
+					},
+					"strength": "10",
+					"accuracy": "2",
+					"range": "200/2,500",
+					"rate_of_fire": "3",
+					"shots": "8+1(3)",
+					"bulk": "-3",
+					"recoil": "4",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						}
+					],
+					"calc": {
+						"damage": "2d+1 pi+"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 140,
+				"extended_weight": "1.1 lb"
+			}
+		},
+		{
+			"id": "82b99e22-4bfe-4f65-9967-0396ee19c951",
+			"type": "equipment_container",
+			"description": "Backpack",
+			"notes": "A backpack which can hold up to thirty pounds of gear. A requirement for all adventurers.",
+			"tech_level": "0",
+			"legality_class": "4",
+			"tags": [
+				"Survival"
+			],
+			"quantity": 1,
+			"value": 35,
+			"weight": "1 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "30 lb"
+						}
+					}
+				]
+			},
+			"equipped": true,
+			"calc": {
+				"extended_value": 35,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "46f35c7f-7736-4a6d-a62c-05ebeec31b01",
+			"type": "equipment_container",
+			"description": "Ammo Belt",
+			"notes": "A belt which can hold some ammo for guns. The belt itself weighs very little and is easy to use.",
+			"tech_level": "0",
+			"legality_class": "4",
+			"tags": [
+				"Survival"
+			],
+			"quantity": 1,
+			"value": 35,
+			"weight": "1 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "5 lb"
+						}
+					}
+				]
+			},
+			"features": [
+				{
+					"type": "conditional_modifier",
+					"situation": "to grab ammo out of the belt with Fast-Draw (Ammo)",
+					"amount": 1
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 35,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "ffd04b72-438f-4c08-a246-557f1f9d4a4d",
+			"type": "equipment_container",
+			"children": [
+				{
+					"id": "c6890f88-9bbb-4166-9196-b06ae9070690",
+					"type": "equipment",
+					"description": "Bedroll",
+					"notes": "A pillow and blanket for sleeping on. Keeps you warm, but it's no bed.",
+					"tech_level": "0",
+					"legality_class": "4",
+					"tags": [
+						"Survival"
+					],
+					"quantity": 1,
+					"value": 50,
+					"weight": "1 lb",
+					"equipped": true,
+					"calc": {
+						"extended_value": 50,
+						"extended_weight": "1 lb"
+					}
+				},
+				{
+					"id": "34d5f9d3-fc28-4d3a-b9df-4d9ad714806a",
+					"type": "equipment_container",
+					"children": [
+						{
+							"id": "3fdfb865-a581-4ef5-abaa-53c43676b7c3",
+							"type": "equipment",
+							"description": "Water, Two Quarts",
+							"legality_class": "4",
+							"quantity": 1,
+							"value": 2,
+							"weight": "4 lb",
+							"equipped": true,
+							"calc": {
+								"extended_value": 2,
+								"extended_weight": "4 lb"
+							}
+						}
+					],
+					"description": "Canteen",
+					"notes": "A canteen used to store water for long treks.",
+					"tech_level": "6",
+					"legality_class": "4",
+					"tags": [
+						"Survival"
+					],
+					"quantity": 1,
+					"value": 20,
+					"weight": "1 lb",
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "contained_weight_prereq",
+								"has": true,
+								"qualifier": {
+									"compare": "at_most",
+									"qualifier": "4 lb"
+								}
+							}
+						]
+					},
+					"equipped": true,
+					"calc": {
+						"extended_value": 22,
+						"extended_weight": "5 lb"
+					}
+				},
+				{
+					"id": "e24664f5-f6bd-4120-a984-83ab6d10c835",
+					"type": "equipment",
+					"description": "Clothing Kit",
+					"notes": "Some basic clothing.",
+					"tech_level": "1",
+					"legality_class": "4",
+					"tags": [
+						"Survival"
+					],
+					"modifiers": [
+						{
+							"id": "ce650727-f0a5-4306-976b-47ba486bc6c5",
+							"type": "eqp_modifier",
+							"name": "Normal",
+							"disabled": true,
+							"cost": "+20"
+						},
+						{
+							"id": "2a4a92f4-369d-4803-8828-7d8c029b79d3",
+							"type": "eqp_modifier",
+							"name": "Winter",
+							"disabled": true,
+							"cost": "+35",
+							"weight": "+0.5 lb"
+						},
+						{
+							"id": "877c0798-8353-4dfa-ace1-503f27323ae6",
+							"type": "eqp_modifier",
+							"name": "Summer",
+							"disabled": true,
+							"cost": "+25"
+						},
+						{
+							"id": "31c4719a-892e-4769-93bd-3d9af4ca213e",
+							"type": "eqp_modifier",
+							"name": "Hiking",
+							"cost": "+25"
+						}
+					],
+					"quantity": 1,
+					"weight": "1 lb",
+					"equipped": true,
+					"calc": {
+						"extended_value": 25,
+						"extended_weight": "1 lb"
+					}
+				},
+				{
+					"id": "0052b046-fdb2-4bcd-b8d1-b0a8b8359c6b",
+					"type": "equipment",
+					"description": "Compass",
+					"notes": "A digital compass with rechargable solar batteries. You can even put waypoints on it to navagate around.",
+					"tech_level": "8",
+					"legality_class": "4",
+					"tags": [
+						"Survival"
+					],
+					"quantity": 1,
+					"value": 200,
+					"weight": "1 lb",
+					"equipped": true,
+					"calc": {
+						"extended_value": 200,
+						"extended_weight": "1 lb"
+					}
+				},
+				{
+					"id": "923b1acb-6035-402e-bd48-5466f855c02d",
+					"type": "equipment",
+					"description": "Cooking Gear",
+					"notes": "Gear needed to cook properly, pots, pans, utensils, etc.",
+					"tech_level": "6",
+					"legality_class": "4",
+					"tags": [
+						"Survival"
+					],
+					"quantity": 1,
+					"value": 60,
+					"weight": "5 lb",
+					"equipped": true,
+					"calc": {
+						"extended_value": 60,
+						"extended_weight": "5 lb"
+					}
+				},
+				{
+					"id": "0af01535-69de-4f1a-b661-456c1ecee903",
+					"type": "equipment",
+					"description": "Fishing Gear",
+					"notes": "Standard fishing gear.",
+					"tech_level": "0",
+					"legality_class": "4",
+					"tags": [
+						"Survival"
+					],
+					"quantity": 1,
+					"value": 50,
+					"weight": "2 lb",
+					"equipped": true,
+					"calc": {
+						"extended_value": 50,
+						"extended_weight": "2 lb"
+					}
+				},
+				{
+					"id": "8f44f24b-6d6f-49b3-ae08-6c66b1480561",
+					"type": "equipment",
+					"description": "Hatchet",
+					"notes": "A survialist's staple weapon. Great in a pinch.",
+					"tech_level": "2",
+					"legality_class": "4",
+					"tags": [
+						"Melee Weapon",
+						"Survival"
+					],
+					"quantity": 1,
+					"value": 400,
+					"weight": "2 lb",
+					"weapons": [
+						{
+							"id": "12c9f475-1517-434b-9a98-b89941370fd2",
+							"type": "melee_weapon",
+							"damage": {
+								"type": "cut",
+								"st": "sw"
+							},
+							"strength": "8",
+							"usage": "Swung",
+							"reach": "1",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Blunt"
+								},
+								{
+									"type": "dx",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Shortsword"
+								},
+								{
+									"type": "skill",
+									"name": "Broadsword",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Force Sword",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Jitte/Sai",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Knife",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Saber",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Smallsword",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Tonfa",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Sword!"
+								}
+							],
+							"calc": {
+								"damage": "sw cut"
+							}
+						}
+					],
+					"equipped": true,
+					"calc": {
+						"extended_value": 400,
+						"extended_weight": "2 lb"
+					}
+				},
+				{
+					"id": "af079788-4d0b-430c-8130-b3b3ce0d66e8",
+					"type": "equipment",
+					"description": "Lighter",
+					"notes": "A basic lighter with a full batch of fuel in it.",
+					"tech_level": "6",
+					"legality_class": "4",
+					"tags": [
+						"Survival"
+					],
+					"quantity": 1,
+					"value": 20,
+					"weight": "0.25 lb",
+					"equipped": true,
+					"calc": {
+						"extended_value": 20,
+						"extended_weight": "0.25 lb"
+					}
+				},
+				{
+					"id": "6009d11a-1dd6-4363-a20e-bf78f7f3ebfe",
+					"type": "equipment",
+					"description": "Radio, two-way",
+					"notes": "A two-way radio. It has solar powered batteries and can last for years without dying. Crucial for teams of survivalists.",
+					"tech_level": "8",
+					"legality_class": "4",
+					"tags": [
+						"Survival"
+					],
+					"quantity": 1,
+					"value": 150,
+					"weight": "1 lb",
+					"equipped": true,
+					"calc": {
+						"extended_value": 150,
+						"extended_weight": "1 lb"
+					}
+				},
+				{
+					"id": "1fc349a9-45bc-496c-8838-8f021a907e1b",
+					"type": "equipment",
+					"description": "Tent, one-man",
+					"notes": "A one-man tent. Can also fit a bedroll and a backpack, so bandits can't get to them.",
+					"tech_level": "0",
+					"legality_class": "4",
+					"tags": [
+						"Survival"
+					],
+					"quantity": 1,
+					"value": 25,
+					"weight": "6 lb",
+					"equipped": true,
+					"calc": {
+						"extended_value": 25,
+						"extended_weight": "6 lb"
+					}
+				},
+				{
+					"id": "4a003440-b5fb-4d65-8549-48f942413658",
+					"type": "equipment",
+					"description": "Watch",
+					"notes": "A nice smartwatch, that lists the local time, quadrum, date, your bpm, and other facts.",
+					"tech_level": "9",
+					"legality_class": "4",
+					"tags": [
+						"Survival"
+					],
+					"quantity": 1,
+					"value": 40,
+					"equipped": true,
+					"calc": {
+						"extended_value": 40,
+						"extended_weight": "0 lb"
+					}
+				}
+			],
+			"description": "Backpack (Pre-filled with Survival Gear)",
+			"notes": "A backpack filled with gear for survival in the wilderness. Total cost is $1,077, weighing in at 25.25 lb",
+			"tech_level": "0",
+			"legality_class": "4",
+			"tags": [
+				"Survival"
+			],
+			"quantity": 1,
+			"value": 35,
+			"weight": "1 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "30 lb"
+						}
+					}
+				]
+			},
+			"equipped": true,
+			"calc": {
+				"extended_value": 1077,
+				"extended_weight": "25.25 lb"
+			}
+		},
+		{
+			"id": "97be4853-98fe-4c9f-8f7c-3f7a25639508",
+			"type": "equipment",
+			"description": "Bedroll",
+			"notes": "A pillow and blanket for sleeping on. Keeps you warm, but it's no bed.",
+			"tech_level": "0",
+			"legality_class": "4",
+			"tags": [
+				"Survival"
+			],
+			"quantity": 1,
+			"value": 50,
+			"weight": "1 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "0c728b2d-51dd-4bba-97a1-bfe8f96452a6",
+			"type": "equipment",
+			"description": "Bolt",
+			"notes": "One bolt, which can be reused.",
+			"tech_level": "0",
+			"legality_class": "4",
+			"tags": [
+				"Ammunition"
+			],
+			"quantity": 1,
+			"value": 1,
+			"weight": "0.1 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 1,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "fe6c451e-8cd7-401f-8f44-fe64466c1d3e",
+			"type": "equipment",
+			"description": "Bolt-action rifle, .303 cartridge",
+			"notes": "A hunter's weapon, built cheaply but a nice weapon overall.",
+			"tech_level": "7",
+			"legality_class": "3",
+			"tags": [
+				"Firearm"
+			],
+			"quantity": 1,
+			"value": 350,
+			"weight": "8.9 lb",
+			"weapons": [
+				{
+					"id": "bf7d3a21-1385-41e1-8c64-1e3841178cb5",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "7d"
+					},
+					"strength": "10†",
+					"accuracy": "5",
+					"range": "1,000/4,200",
+					"rate_of_fire": "1",
+					"shots": "5+1(3)",
+					"bulk": "-5",
+					"recoil": "4",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						}
+					],
+					"calc": {
+						"damage": "7d pi"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 350,
+				"extended_weight": "8.9 lb"
+			}
+		},
+		{
+			"id": "624d87e8-ad71-402b-85e0-6e02f498931a",
+			"type": "equipment",
+			"description": "Building Gear",
+			"notes": "Supplies used to build various things. Can be expended over time, so it might need to be replenished.",
+			"tech_level": "1",
+			"legality_class": "4",
+			"tags": [
+				"Survival"
+			],
+			"quantity": 1,
+			"value": 100,
+			"weight": "7.5 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "7.5 lb"
+			}
+		},
+		{
+			"id": "b6e17f2d-20f0-430d-9892-01008d43793b",
+			"type": "equipment_container",
+			"children": [
+				{
+					"id": "014cf9b5-d4cf-4ce3-9f87-4865a2e96a64",
+					"type": "equipment",
+					"description": "Water, Two Quarts",
+					"legality_class": "4",
+					"quantity": 1,
+					"value": 2,
+					"weight": "4 lb",
+					"equipped": true,
+					"calc": {
+						"extended_value": 2,
+						"extended_weight": "4 lb"
+					}
+				}
+			],
+			"description": "Canteen",
+			"notes": "A canteen used to store water for long treks.",
+			"tech_level": "6",
+			"legality_class": "4",
+			"tags": [
+				"Survival"
+			],
+			"quantity": 1,
+			"value": 20,
+			"weight": "1 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "4 lb"
+						}
+					}
+				]
+			},
+			"equipped": true,
+			"calc": {
+				"extended_value": 22,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "9fc83303-92e8-43ee-be51-fa3a0c6f4428",
+			"type": "equipment",
+			"description": "Cataphract Armor Helmet",
+			"notes": "Cataphract Armor is a rare imperial made armor, which can only be found in exeptional cases on most rim planets. It is extremely powerful, and expensive. It is illegal for non-Cataphract soldiers to own it, if a planet has the presence of Imperial forces.",
+			"tech_level": "11",
+			"legality_class": "2",
+			"tags": [
+				"Armor"
+			],
+			"modifiers": [
+				{
+					"id": "b4e6b31b-f175-45ed-8a07-d876d008fbc4",
+					"type": "eqp_modifier",
+					"name": "Prestige",
+					"notes": "Made with gold in some areas. Makes the user happy.",
+					"cost_type": "to_base_cost",
+					"disabled": true,
+					"cost": "x3",
+					"weight": "+5 lb",
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"situation": "from others who see your armor",
+							"amount": 1
+						}
+					]
+				}
+			],
+			"quantity": 1,
+			"value": 5000,
+			"weight": "7 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "eye",
+					"amount": 30
+				},
+				{
+					"type": "dr_bonus",
+					"location": "skull",
+					"amount": 40
+				},
+				{
+					"type": "dr_bonus",
+					"location": "face",
+					"amount": 30
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 5000,
+				"extended_weight": "7 lb"
+			}
+		},
+		{
+			"id": "83edcf64-0a08-4682-bb8a-f920a223cdbc",
+			"type": "equipment",
+			"description": "Cataphract Body Armor",
+			"notes": "Cataphract Armor is a rare imperial made armor, which can only be found in exeptional cases on most rim planets. It is extremely powerful, and expensive. It is illegal for non-Cataphract soldiers to own it, if a planet has the presence of Imperial forces.",
+			"tech_level": "11",
+			"legality_class": "2",
+			"tags": [
+				"Armor"
+			],
+			"modifiers": [
+				{
+					"id": "b05a1376-7866-42b5-90de-1c2b0108c9f8",
+					"type": "eqp_modifier",
+					"name": "Prestige",
+					"notes": "Made with gold in some areas. Makes the user happy.",
+					"cost_type": "to_base_cost",
+					"disabled": true,
+					"cost": "x3",
+					"weight": "+5 lb",
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"situation": "from others who see your armor",
+							"amount": 1
+						}
+					]
+				}
+			],
+			"quantity": 1,
+			"value": 15000,
+			"weight": "45 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "vacc suit"
+						}
+					}
+				]
+			},
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "abdomen",
+					"amount": 40
+				},
+				{
+					"type": "dr_bonus",
+					"location": "neck",
+					"amount": 40
+				},
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 55
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 55
+				},
+				{
+					"type": "dr_bonus",
+					"location": "groin",
+					"amount": 40
+				},
+				{
+					"type": "dr_bonus",
+					"location": "arm",
+					"amount": 40
+				},
+				{
+					"type": "dr_bonus",
+					"location": "hand",
+					"amount": 40
+				},
+				{
+					"type": "dr_bonus",
+					"location": "leg",
+					"amount": 40
+				},
+				{
+					"type": "dr_bonus",
+					"location": "foot",
+					"amount": 40
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 15000,
+				"extended_weight": "45 lb"
+			}
+		},
+		{
+			"id": "d2e998fc-8a02-4cb8-83f1-e0916fa7737e",
+			"type": "equipment",
+			"description": "Chain shotgun, 12 gauge",
+			"notes": "An ancient design of shotgun that emits a tight-packed spray of pellets. Deadly, but short range.",
+			"tech_level": "8",
+			"legality_class": "1",
+			"tags": [
+				"Firearm"
+			],
+			"quantity": 1,
+			"value": 605,
+			"weight": "9 lb",
+			"weapons": [
+				{
+					"id": "bc5f3b76-adbe-4fdb-b97f-26d1fc2c5b98",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "1d+1"
+					},
+					"strength": "10†",
+					"accuracy": "3",
+					"range": "50/75",
+					"rate_of_fire": "4x9",
+					"shots": "5(3i)",
+					"bulk": "-5",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						}
+					],
+					"calc": {
+						"damage": "1d+1 pi"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 605,
+				"extended_weight": "9 lb"
+			}
+		},
+		{
+			"id": "6ca8d78a-9998-4316-a9ef-7d2c0101022f",
+			"type": "equipment",
+			"description": "Charge LMG, 6x24mm",
+			"notes": "High-Level technology, using machinery made by ancients. It fires 6x24mm rounds, that shred through armor. Requires two magazines to load one time",
+			"tech_level": "10",
+			"legality_class": "1",
+			"tags": [
+				"Firearm"
+			],
+			"quantity": 1,
+			"value": 12000,
+			"weight": "30 lb",
+			"weapons": [
+				{
+					"id": "836f48f1-031d-40c6-bb00-47f280f55ede",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "4d+2",
+						"armor_divisor": 2
+					},
+					"strength": "13B†",
+					"accuracy": "5",
+					"range": "1,000/4,200",
+					"rate_of_fire": "15!",
+					"shots": "100(5)",
+					"bulk": "-6",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						}
+					],
+					"calc": {
+						"damage": "4d+2(2) pi"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 12000,
+				"extended_weight": "30 lb"
+			}
+		},
+		{
+			"id": "cd18948c-cf9b-4050-8f3f-5468129a833e",
+			"type": "equipment",
+			"description": "Charge Pistol, 6x24mm",
+			"notes": "High-Level technology, using machinery made by ancients. It fires 6x24mm rounds, that shred through armor. ",
+			"tech_level": "10",
+			"legality_class": "3",
+			"tags": [
+				"Firearm"
+			],
+			"quantity": 1,
+			"value": 4000,
+			"weight": "2 lb",
+			"weapons": [
+				{
+					"id": "ce878e8b-9ee3-4737-8823-f6be46c8aa0c",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "4d+2",
+						"armor_divisor": 2
+					},
+					"strength": "9",
+					"accuracy": "2",
+					"range": "150/1,900",
+					"rate_of_fire": "3",
+					"shots": "18+1(3)",
+					"bulk": "-2",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						}
+					],
+					"calc": {
+						"damage": "4d+2(2) pi"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 4000,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "b9deb4bf-6929-4682-aef5-282dec750079",
+			"type": "equipment",
+			"description": "Charge Rifle, 6x24mm",
+			"notes": "High-Level technology, using machinery made by ancients. It fires 6x24mm rounds, that shred through armor. ",
+			"tech_level": "10",
+			"legality_class": "2",
+			"tags": [
+				"Firearm"
+			],
+			"quantity": 1,
+			"value": 8750,
+			"weight": "10 lb",
+			"weapons": [
+				{
+					"id": "aecbd2b2-c074-4d89-b961-a3a58b2382a8",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "4d+2",
+						"armor_divisor": 2
+					},
+					"strength": "9†",
+					"accuracy": "5",
+					"range": "500/3,500",
+					"rate_of_fire": "12",
+					"shots": "30+1(3)",
+					"bulk": "-4",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						}
+					],
+					"calc": {
+						"damage": "4d+2(2) pi"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 8750,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "73de08cf-38b4-496c-a665-4071dcb953ce",
+			"type": "equipment",
+			"description": "Charge Rocket Launcher, Charge Rockets",
+			"notes": "This weapon was made ages ago to take out Warstriders. It now sits dormant, waiting to be used to blow up a base, vehicle, or anything that it's user doesn't want to exist anymore. Includes rocket, one use",
+			"tech_level": "11",
+			"legality_class": "1",
+			"tags": [
+				"Firearm"
+			],
+			"quantity": 1,
+			"value": 20000,
+			"weight": "37 lb",
+			"weapons": [
+				{
+					"id": "d54cbf80-8dd6-4a04-a45d-b63bd745e0cf",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "cr ex",
+						"base": "8dx10",
+						"armor_divisor": 10
+					},
+					"strength": "11B†",
+					"accuracy": "3",
+					"range": "200/2,000",
+					"rate_of_fire": "1",
+					"shots": "1(20)",
+					"bulk": "-10",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns"
+						},
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Artillery",
+							"specialization": "Guided Missile"
+						}
+					],
+					"calc": {
+						"damage": "8dx10(10) cr ex"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 20000,
+				"extended_weight": "37 lb"
+			}
+		},
+		{
+			"id": "8f4a9617-226e-4a67-84ef-f3e13c7453ff",
+			"type": "equipment",
+			"description": "Charge Shotgun, 6x24mm ",
+			"notes": "High-Level technology, using machinery made by ancients. It fires 6x24mm rounds, that shred through armor. ",
+			"tech_level": "10",
+			"legality_class": "2",
+			"tags": [
+				"Firearm"
+			],
+			"quantity": 1,
+			"value": 12500,
+			"weight": "8.4 lb",
+			"weapons": [
+				{
+					"id": "2dd4aa66-fa35-460a-a15b-8004c9185ea1",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "2d+1",
+						"armor_divisor": 2
+					},
+					"strength": "10†",
+					"accuracy": "3",
+					"range": "50/125",
+					"rate_of_fire": "3x9",
+					"shots": "6+1(3i)",
+					"bulk": "-5",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						}
+					],
+					"calc": {
+						"damage": "2d+1(2) pi"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 12500,
+				"extended_weight": "8.4 lb"
+			}
+		},
+		{
+			"id": "81de50ec-154f-4dfe-acd9-d7cd0f56c3b0",
+			"type": "equipment",
+			"description": "Charge SMG, 6x24mm",
+			"notes": "High-Level technology, using machinery made by ancients. It fires 6x24mm rounds, that shred through armor. ",
+			"tech_level": "10",
+			"legality_class": "2",
+			"tags": [
+				"Firearm"
+			],
+			"quantity": 1,
+			"value": 11500,
+			"weight": "7.5 lb",
+			"weapons": [
+				{
+					"id": "a5e42278-9f66-4d2a-95c8-946f99292b37",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "4d+2",
+						"armor_divisor": 2
+					},
+					"strength": "9",
+					"accuracy": "2",
+					"range": "150/1,900",
+					"rate_of_fire": "8!",
+					"shots": "18+1(3)",
+					"bulk": "-2",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						}
+					],
+					"calc": {
+						"damage": "4d+2(2) pi"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 11500,
+				"extended_weight": "7.5 lb"
+			}
+		},
+		{
+			"id": "9e6a3239-a817-402c-8866-7bcec773f5af",
+			"type": "equipment",
+			"description": "Charge Sniper Rifle, 6x24mm",
+			"notes": "High-Level technology, using machinery made by ancients. It fires 6x24mm rounds, that shred through armor. ",
+			"tech_level": "11",
+			"legality_class": "2",
+			"tags": [
+				"Firearm"
+			],
+			"quantity": 1,
+			"value": 17000,
+			"weight": "17.5 lb",
+			"weapons": [
+				{
+					"id": "d960c45a-30cc-4295-a7d0-2f3ac3ab4e85",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "5d+3",
+						"armor_divisor": 2
+					},
+					"strength": "11B†",
+					"accuracy": "9",
+					"range": "1,500/5,500",
+					"rate_of_fire": "1",
+					"shots": "2+1(4i)",
+					"bulk": "-6",
+					"recoil": "4",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						}
+					],
+					"calc": {
+						"damage": "5d+3(2) pi"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 17000,
+				"extended_weight": "17.5 lb"
+			}
+		},
+		{
+			"id": "e57b0c8f-ea0a-4124-a275-c3e4ae063c3d",
+			"type": "equipment",
+			"description": "Clothing Kit",
+			"notes": "Some basic clothing.",
+			"tech_level": "1",
+			"legality_class": "4",
+			"tags": [
+				"Survival"
+			],
+			"modifiers": [
+				{
+					"id": "ce650727-f0a5-4306-976b-47ba486bc6c5",
+					"type": "eqp_modifier",
+					"name": "Normal",
+					"disabled": true,
+					"cost": "+20"
+				},
+				{
+					"id": "2a4a92f4-369d-4803-8828-7d8c029b79d3",
+					"type": "eqp_modifier",
+					"name": "Winter",
+					"disabled": true,
+					"cost": "+35",
+					"weight": "+0.5 lb"
+				},
+				{
+					"id": "877c0798-8353-4dfa-ace1-503f27323ae6",
+					"type": "eqp_modifier",
+					"name": "Summer",
+					"disabled": true,
+					"cost": "+25"
+				},
+				{
+					"id": "31c4719a-892e-4769-93bd-3d9af4ca213e",
+					"type": "eqp_modifier",
+					"name": "Hiking",
+					"disabled": true,
+					"cost": "+25"
+				},
+				{
+					"id": "7a9fc5b1-792d-42be-9603-9b45be3b1069",
+					"type": "eqp_modifier",
+					"name": "Cloth",
+					"disabled": true
+				},
+				{
+					"id": "f0f73518-106f-4e35-86ab-9df4e2757ba9",
+					"type": "eqp_modifier",
+					"name": "Synthread",
+					"cost_type": "to_base_cost",
+					"disabled": true,
+					"cost": "+4 CF",
+					"weight": "-25%",
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"situation": "from others who see your clothing",
+							"amount": 1
+						}
+					]
+				},
+				{
+					"id": "055bc14c-fa77-4712-816e-18b584e31dde",
+					"type": "eqp_modifier",
+					"name": "Hyperweave",
+					"cost_type": "to_base_cost",
+					"disabled": true,
+					"cost": "+9 CF",
+					"weight": "-25%",
+					"features": [
+						{
+							"type": "dr_bonus",
+							"location": "",
+							"amount": 1
+						},
+						{
+							"type": "reaction_bonus",
+							"situation": "from others who see your clothing",
+							"amount": 2
+						}
+					]
+				}
+			],
+			"quantity": 1,
+			"weight": "1 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 0
+				},
+				{
+					"type": "dr_bonus",
+					"location": "arm",
+					"amount": 0
+				},
+				{
+					"type": "dr_bonus",
+					"location": "leg",
+					"amount": 0
+				},
+				{
+					"type": "dr_bonus",
+					"location": "neck",
+					"amount": 0
+				},
+				{
+					"type": "dr_bonus",
+					"location": "foot",
+					"amount": 0
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 0,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "831b2231-9ef6-4fc5-8fbf-cfd667bf86c3",
+			"type": "equipment",
+			"description": "Club",
+			"notes": "A heavy club, used to bash brains in by tribals. Some police men also use these.",
+			"tech_level": "0",
+			"legality_class": "4",
+			"tags": [
+				"Melee Weapon"
+			],
+			"quantity": 1,
+			"value": 5,
+			"weight": "3 lb",
+			"weapons": [
+				{
+					"id": "3865e69a-4d81-406e-844d-e8cc2b0bcddb",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "sw",
+						"base": "1"
+					},
+					"strength": "10",
+					"usage": "Swung",
+					"reach": "1",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Blunt"
+						},
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword"
+						},
+						{
+							"type": "skill",
+							"name": "Rapier",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Saber",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Sword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Sword!"
+						}
+					],
+					"calc": {
+						"damage": "sw+1 cr"
+					}
+				},
+				{
+					"id": "480b3768-4946-4e04-b117-3d1b843b36f3",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "thr",
+						"base": "1"
+					},
+					"strength": "10",
+					"usage": "Thrust",
+					"reach": "1",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Blunt"
+						},
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword"
+						},
+						{
+							"type": "skill",
+							"name": "Rapier",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Saber",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Sword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Sword!"
+						}
+					],
+					"calc": {
+						"damage": "thr+1 cr"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 5,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "f04673b4-e0f2-4ee5-bec6-8348a0a9a99d",
+			"type": "equipment",
+			"description": "Coffee, one pound",
+			"notes": "One pound of coffee, which will last a person thirty days. Makes people happy.",
+			"tech_level": "0",
+			"legality_class": "4",
+			"tags": [
+				"Food"
+			],
+			"quantity": 1,
+			"value": 25,
+			"weight": "1 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 25,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "f7001a84-3fa0-4715-83eb-d4251cefea0f",
+			"type": "equipment",
+			"description": "Compass",
+			"notes": "A digital compass with rechargable solar batteries. You can even put waypoints on it to navagate around.",
+			"tech_level": "8",
+			"legality_class": "4",
+			"tags": [
+				"Survival"
+			],
+			"quantity": 1,
+			"value": 200,
+			"weight": "1 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "57acc97d-f0ac-4b3a-9488-031d8996c308",
+			"type": "equipment",
+			"description": "Compound Bow",
+			"notes": "A more modern bow, used by hunters on new Midworlds.",
+			"tech_level": "7",
+			"legality_class": "4",
+			"tags": [
+				"Bow"
+			],
+			"quantity": 1,
+			"value": 125,
+			"weight": "4 lb",
+			"weapons": [
+				{
+					"id": "190f3e33-43a2-4961-9623-4d466144d202",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "3"
+					},
+					"strength": "11†",
+					"accuracy": "3",
+					"range": "x15/x20",
+					"rate_of_fire": "1",
+					"shots": "1(2)",
+					"bulk": "-8",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Bow"
+						}
+					],
+					"calc": {
+						"damage": "thr+3 imp"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 125,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "b1197d36-0e4d-4147-b6af-e2e120cee1ab",
+			"type": "equipment",
+			"description": "Cooking Gear",
+			"notes": "Gear needed to cook properly, pots, pans, utensils, etc.",
+			"tech_level": "6",
+			"legality_class": "4",
+			"tags": [
+				"Survival"
+			],
+			"quantity": 1,
+			"value": 60,
+			"weight": "5 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 60,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "7a32007f-dbde-44e6-931b-0b3f375b7bcb",
+			"type": "equipment",
+			"description": "Crossbow",
+			"notes": "A crossbow, used by tribals and industrials alike.",
+			"tech_level": "4",
+			"legality_class": "4",
+			"tags": [
+				"Bow"
+			],
+			"quantity": 1,
+			"value": 140,
+			"weight": "3 lb",
+			"weapons": [
+				{
+					"id": "abd10c84-cd21-4baf-b363-8d07e949c0dd",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "5"
+					},
+					"strength": "11†",
+					"accuracy": "4",
+					"range": "x20/x25",
+					"rate_of_fire": "1",
+					"shots": "1(8)",
+					"bulk": "-6",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Bow"
+						}
+					],
+					"calc": {
+						"damage": "thr+5 imp"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 140,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "7230ba21-ba2c-4000-b53c-8ab49c9b9fae",
+			"type": "equipment",
+			"description": "Fishing Gear",
+			"notes": "Standard fishing gear.",
+			"tech_level": "0",
+			"legality_class": "4",
+			"tags": [
+				"Survival"
+			],
+			"quantity": 1,
+			"value": 50,
+			"weight": "2 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "427940cd-ac8a-48eb-af0a-bffe275b66e3",
+			"type": "equipment",
+			"description": "Flak Helmet",
+			"notes": "A nice helmet, which can have a face visor attached.",
+			"tech_level": "7",
+			"legality_class": "2",
+			"tags": [
+				"Armor"
+			],
+			"modifiers": [
+				{
+					"id": "644466f4-65b3-445b-a1c7-8b87e6b0dd56",
+					"type": "eqp_modifier",
+					"name": "Face Visor",
+					"notes": "Protects the face.",
+					"cost_type": "to_base_cost",
+					"disabled": true,
+					"cost": "+0.5 CF",
+					"weight": "+1 lb",
+					"features": [
+						{
+							"type": "dr_bonus",
+							"location": "face",
+							"amount": 2
+						},
+						{
+							"type": "dr_bonus",
+							"location": "eye",
+							"amount": 2
+						}
+					]
+				}
+			],
+			"quantity": 1,
+			"value": 850,
+			"weight": "6 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "skull",
+					"amount": 7
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 850,
+				"extended_weight": "6 lb"
+			}
+		},
+		{
+			"id": "2e639c61-a1b0-47a8-8b58-c7096bae032d",
+			"type": "equipment",
+			"description": "Flak Jacket",
+			"notes": "A heavier vest, which protects the arms, torso, neck, and groin. Can be worn over a Flak Vest.",
+			"tech_level": "7",
+			"legality_class": "2",
+			"tags": [
+				"Armor"
+			],
+			"quantity": 1,
+			"value": 1230,
+			"weight": "8.5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "neck",
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"location": "groin",
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"location": "arm",
+					"amount": 6
+				},
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 12
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 12
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 1230,
+				"extended_weight": "8.5 lb"
+			}
+		},
+		{
+			"id": "7850b9d5-7997-4fa3-9f7d-710b665039f9",
+			"type": "equipment",
+			"description": "Flak Pants",
+			"notes": "A light leg piece, intended to protect one's legs.",
+			"tech_level": "7",
+			"legality_class": "2",
+			"tags": [
+				"Armor"
+			],
+			"quantity": 1,
+			"value": 725,
+			"weight": "3.5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "leg",
+					"amount": 5
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 725,
+				"extended_weight": "3.5 lb"
+			}
+		},
+		{
+			"id": "ac86a62b-548d-4325-b6e4-4bdde317b918",
+			"type": "equipment",
+			"description": "Flak Vest",
+			"notes": "A light vest, which only protects the torso and vitals from attacks.",
+			"tech_level": "7",
+			"legality_class": "2",
+			"tags": [
+				"Armor"
+			],
+			"quantity": 1,
+			"value": 850,
+			"weight": "6 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 10
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 10
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 850,
+				"extended_weight": "6 lb"
+			}
+		},
+		{
+			"id": "53f36d40-7fc7-4ed8-84c5-d768017e95ae",
+			"type": "equipment",
+			"description": "Flake",
+			"notes": "When you take flake, you gain the trait \"High pain Threshold\", you are significantly happier, and you lose sleep and energy slower. This is a very addictive drug. One Unit is one dose.",
+			"legality_class": "3",
+			"tags": [
+				"Drug"
+			],
+			"quantity": 1,
+			"value": 14,
+			"weight": "0.05 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 14,
+				"extended_weight": "0.05 lb"
+			}
+		},
+		{
+			"id": "8566f0ae-dd13-4305-919b-f483422adb36",
+			"type": "equipment",
+			"description": "Fuel Canister",
+			"notes": "One fuel canister for anything that can fit it. Lasts something like a stove eight hours, while a ship maybe thirty minutes.",
+			"tech_level": "9",
+			"legality_class": "4",
+			"tags": [
+				"Survival"
+			],
+			"quantity": 1,
+			"value": 20,
+			"weight": "5 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 20,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "7c8157c3-34fc-46d6-b00a-3abcbcb1b501",
+			"type": "equipment",
+			"description": "Glitterworld Medicine",
+			"notes": "One Unit of Glitterworld Medicines. It is an advanced medicine, and gives a +2 to skill.",
+			"tech_level": "10",
+			"legality_class": "4",
+			"tags": [
+				"Medicine"
+			],
+			"quantity": 1,
+			"value": 300,
+			"weight": "2 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 300,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "c68c2db2-8851-4b53-9b86-753910b1125e",
+			"type": "equipment",
+			"description": "Go-juice",
+			"notes": "When you take go-juice, you gain the trait \"High pain Threshold\" and you lose sleep slower. If you are a psycaster, you regain 20% of your lost Psyfocus when this is injected. One Unit is one dose.  This is a very addictive drug. ",
+			"legality_class": "3",
+			"tags": [
+				"Drug"
+			],
+			"quantity": 1,
+			"value": 58,
+			"weight": "0.05 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 58,
+				"extended_weight": "0.05 lb"
+			}
+		},
+		{
+			"id": "930f87df-99d7-4467-a6e8-9a8bbc65bc53",
+			"type": "equipment",
+			"description": "Gold",
+			"notes": "A shiny golden bar of metal, not to be mistaken for the cube.",
+			"legality_class": "4",
+			"tags": [
+				"Currency"
+			],
+			"quantity": 1,
+			"value": 10,
+			"weight": "0.15 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "0.15 lb"
+			}
+		},
+		{
+			"id": "014549a5-9b80-4225-979c-e0824647c455",
+			"type": "equipment",
+			"description": "Hatchet",
+			"notes": "A survialist's staple weapon. Great in a pinch.",
+			"tech_level": "2",
+			"legality_class": "4",
+			"tags": [
+				"Melee Weapon",
+				"Survival"
+			],
+			"quantity": 1,
+			"value": 400,
+			"weight": "2 lb",
+			"weapons": [
+				{
+					"id": "12c9f475-1517-434b-9a98-b89941370fd2",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cut",
+						"st": "sw"
+					},
+					"strength": "8",
+					"usage": "Swung",
+					"reach": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Blunt"
+						},
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword"
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Jitte/Sai",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Knife",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Saber",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Smallsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Tonfa",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Sword!"
+						}
+					],
+					"calc": {
+						"damage": "sw cut"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 400,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "5ea99573-cc8a-4bee-9455-4b856a7e82c0",
+			"type": "equipment",
+			"description": "Herbal Medicine",
+			"notes": "One Unit of Herbal Medicines. It can be used as normal medicine at a -1 penalty to skill.",
+			"tech_level": "0",
+			"legality_class": "4",
+			"tags": [
+				"Medicine"
+			],
+			"quantity": 1,
+			"value": 25,
+			"weight": "0.5 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 25,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "8da8bc07-b6c7-4973-ad79-2eb900809ce6",
+			"type": "equipment",
+			"description": "Jump Pack",
+			"notes": "A jump pack, which is used to jump across obsticals in space. It can jump once per Fuel Canisterfor a distance of fifteen yards per fuel charge.",
+			"tech_level": "7",
+			"legality_class": "2",
+			"tags": [
+				"Utility"
+			],
+			"quantity": 1,
+			"value": 900,
+			"weight": "6 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 900,
+				"extended_weight": "6 lb"
+			}
+		},
+		{
+			"id": "43f53f87-ae3b-4308-b9cc-99b1b212cf00",
+			"type": "equipment",
+			"description": "Knife",
+			"notes": "A knife, used for survival and combat purposes. It can be concealed easily, making it restricted on most planets.",
+			"tech_level": "0",
+			"legality_class": "3",
+			"tags": [
+				"Melee Weapon"
+			],
+			"quantity": 1,
+			"value": 75,
+			"weight": "1 lb",
+			"weapons": [
+				{
+					"id": "12c9f475-1517-434b-9a98-b89941370fd2",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "-2"
+					},
+					"strength": "8",
+					"usage": "Swung",
+					"reach": "1",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Sword"
+						},
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword"
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Jitte/Sai",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Knife",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Saber",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Smallsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Tonfa",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Sword!"
+						}
+					],
+					"calc": {
+						"damage": "sw-2 cut"
+					}
+				},
+				{
+					"id": "c0366cd4-e9df-4ea5-b114-3fa3850b6dd5",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "-2"
+					},
+					"strength": "8",
+					"usage": "Thrust",
+					"reach": "1",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Sword"
+						},
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword"
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Jitte/Sai",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Knife",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Saber",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Smallsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Tonfa",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Sword!"
+						}
+					],
+					"calc": {
+						"damage": "thr-2 imp"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 75,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "f2e1644c-97ef-4c44-b0a1-7362f1bad936",
+			"type": "equipment",
+			"description": "Lighter",
+			"notes": "A basic lighter with a full batch of fuel in it.",
+			"tech_level": "6",
+			"legality_class": "4",
+			"tags": [
+				"Survival"
+			],
+			"quantity": 1,
+			"value": 20,
+			"weight": "0.25 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 20,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "a0735e22-86d8-47a3-bd34-ce3b4ed4043d",
+			"type": "equipment",
+			"description": "Medicine",
+			"notes": "One Unit of  Medicines. It can be used at normal skill level.",
+			"tech_level": "8",
+			"legality_class": "4",
+			"tags": [
+				"Medicine"
+			],
+			"quantity": 1,
+			"value": 100,
+			"weight": "1 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "5dda5dd0-f105-47b2-a6ee-337b847b1dc9",
+			"type": "equipment",
+			"description": "Monosword",
+			"notes": "Monoswords are a type of broadsword that can cut through armor with ease, although they are only as powerful as their user damage wise. They are extremely expensive due to their rarity and their power.",
+			"tech_level": "10",
+			"legality_class": "1",
+			"tags": [
+				"Melee Weapon"
+			],
+			"modifiers": [
+				{
+					"id": "4cb37e6f-cb71-43ea-839c-cb14842131f7",
+					"type": "eqp_modifier",
+					"name": "Mood Enhancing Persona",
+					"notes": "This persona increases the mood of the bonded user.",
+					"disabled": true,
+					"cost": "+1000"
+				},
+				{
+					"id": "4f3e81c6-885e-45ae-828f-fff14f340dd3",
+					"type": "eqp_modifier",
+					"name": "Kill-thrist Persona",
+					"notes": "This negates any bad mood from killing, and rather flips it. It also increases your damage by one point per die. This persona will become angry if it hasn't killed anyone in some time.",
+					"disabled": true,
+					"cost": "+1250",
+					"features": [
+						{
+							"type": "weapon_bonus",
+							"selection_type": "this_weapon",
+							"name": {
+								"compare": "is"
+							},
+							"level": {
+								"compare": "at_least"
+							},
+							"amount": 1,
+							"per_die": true
+						}
+					]
+				}
+			],
+			"quantity": 1,
+			"value": 8000,
+			"weight": "2 lb",
+			"weapons": [
+				{
+					"id": "42f7d1d8-0d8b-4a96-8184-a8bfa4821a56",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "4",
+						"armor_divisor": 8
+					},
+					"strength": "3",
+					"usage": "Swung",
+					"reach": "1-2",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Sword"
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword"
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Saber",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Smallsword",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Sword",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Sword!"
+						}
+					],
+					"calc": {
+						"damage": "sw+4(8) cut"
+					}
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 8000,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "8a789d4a-8448-4d43-9a1c-4a9b9c01e64a",
+			"type": "equipment",
+			"description": "Paper and Pencil",
+			"notes": "Includes everything you need to write basic letters, ledgers, etc.",
+			"tech_level": "2",
+			"legality_class": "4",
+			"tags": [
+				"Survival"
+			],
+			"quantity": 1,
+			"value": 10,
+			"weight": "0.5 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "108c9b70-0e89-48dc-8977-ed01a95d3e7b",
+			"type": "equipment",
+			"description": "Paper Map",
+			"notes": "A paper map of the planet called \"Shepard's Planet\"",
+			"tech_level": "3",
+			"legality_class": "4",
+			"tags": [
+				"Survival"
+			],
+			"quantity": 1,
+			"value": 20,
+			"weight": "0.25 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 20,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "7541e5b8-6ce9-468f-9d4a-0534d9656b9e",
+			"type": "equipment",
+			"description": "Plasma Sword",
+			"notes": "Plasma Swords easily cut through armor, but due to how they are structured, do a low amount of damage compared to force swords and other weapons of the like.",
+			"tech_level": "10",
+			"legality_class": "1",
+			"tags": [
+				"Melee Weapon"
+			],
+			"modifiers": [
+				{
+					"id": "4cb37e6f-cb71-43ea-839c-cb14842131f7",
+					"type": "eqp_modifier",
+					"name": "Mood Enhancing Persona",
+					"notes": "This persona increases the mood of the bonded user.",
+					"disabled": true,
+					"cost": "+1000"
+				},
+				{
+					"id": "4f3e81c6-885e-45ae-828f-fff14f340dd3",
+					"type": "eqp_modifier",
+					"name": "Kill-thrist Persona",
+					"notes": "This negates any bad mood from killing, and rather flips it. It also increases your damage by one point per die. This persona will become angry if it hasn't killed anyone in some time.",
+					"disabled": true,
+					"cost": "+1250",
+					"features": [
+						{
+							"type": "weapon_bonus",
+							"selection_type": "this_weapon",
+							"name": {
+								"compare": "is"
+							},
+							"level": {
+								"compare": "at_least"
+							},
+							"amount": 1,
+							"per_die": true
+						}
+					]
+				}
+			],
+			"quantity": 1,
+			"value": 4000,
+			"weight": "2 lb",
+			"weapons": [
+				{
+					"id": "42f7d1d8-0d8b-4a96-8184-a8bfa4821a56",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "burn",
+						"base": "4d",
+						"armor_divisor": 4
+					},
+					"strength": "3",
+					"usage": "Swung",
+					"reach": "1-2",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Swords"
+						},
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword"
+						},
+						{
+							"type": "skill",
+							"name": "Saber",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Smallsword",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Sword",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Sword!"
+						}
+					],
+					"calc": {
+						"damage": "4d(4) burn"
+					}
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 4000,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "b1be4d4a-c0a0-4093-9b6d-01bb9862746d",
+			"type": "equipment",
+			"description": "Plate Armor",
+			"notes": "Overlapping solid plates of armor covering the entire body from neck to feet.",
+			"tech_level": "4",
+			"legality_class": "4",
+			"tags": [
+				"Armor"
+			],
+			"modifiers": [
+				{
+					"id": "b9796088-1d23-4660-b10e-e9897e4de1c3",
+					"type": "eqp_modifier",
+					"name": "Prestige",
+					"notes": "Made with gold in some areas. Makes the user happy.",
+					"cost_type": "to_base_cost",
+					"disabled": true,
+					"cost": "x3",
+					"weight": "+5 lb",
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"situation": "from others who see your armor",
+							"amount": 1
+						}
+					]
+				}
+			],
+			"quantity": 1,
+			"value": 300,
+			"weight": "30 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "eye",
+					"amount": -6
+				},
+				{
+					"type": "dr_bonus",
+					"location": "skull",
+					"amount": -6
+				},
+				{
+					"type": "dr_bonus",
+					"location": "all",
+					"amount": 6
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 300,
+				"extended_weight": "30 lb"
+			}
+		},
+		{
+			"id": "3872e45b-6de2-4c9f-9800-5baa6240bcb4",
+			"type": "equipment",
+			"description": "Light Plate Armor",
+			"notes": "Overlapping solid plates of armor covering the entire body from neck to feet, slightly lighter than it's counterpart.",
+			"tech_level": "4",
+			"legality_class": "4",
+			"tags": [
+				"Armor"
+			],
+			"modifiers": [
+				{
+					"id": "b9796088-1d23-4660-b10e-e9897e4de1c3",
+					"type": "eqp_modifier",
+					"name": "Prestige",
+					"notes": "Made with gold in some areas. Makes the user happy.",
+					"cost_type": "to_base_cost",
+					"disabled": true,
+					"cost": "x3",
+					"weight": "+5 lb",
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"situation": "from others who see your armor",
+							"amount": 1
+						}
+					]
+				}
+			],
+			"quantity": 1,
+			"value": 250,
+			"weight": "22.5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "eye",
+					"amount": -4
+				},
+				{
+					"type": "dr_bonus",
+					"location": "skull",
+					"amount": -4
+				},
+				{
+					"type": "dr_bonus",
+					"location": "all",
+					"amount": 4
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 250,
+				"extended_weight": "22.5 lb"
+			}
+		},
+		{
+			"id": "2a1697be-57e5-4337-a0d9-730da9b3dd03",
+			"type": "equipment",
+			"description": "Psycaster Helmet",
+			"tech_level": "7",
+			"legality_class": "3",
+			"tags": [
+				"Armor"
+			],
+			"modifiers": [
+				{
+					"id": "b32c2089-119b-4d0e-b857-aa04345a3d51",
+					"type": "eqp_modifier",
+					"name": "Steel",
+					"notes": "Zero Buffer Points",
+					"cost": "+100",
+					"weight": "+7.5 lb"
+				},
+				{
+					"id": "c6cff9e0-9072-4d3e-aaac-1e9d3628f742",
+					"type": "eqp_modifier",
+					"name": "Eltex",
+					"notes": "Four Buffer Points",
+					"disabled": true,
+					"cost": "+2800",
+					"weight": "+4.5 lb",
+					"features": [
+						{
+							"type": "dr_bonus",
+							"location": "skull",
+							"amount": 2
+						}
+					]
+				},
+				{
+					"id": "6181be87-8ad5-4a4b-aa78-cbba44cf35cf",
+					"type": "eqp_modifier",
+					"name": "Steel",
+					"notes": "Four Buffer Points",
+					"disabled": true,
+					"cost": "+2000",
+					"weight": "+8 lb",
+					"features": [
+						{
+							"type": "dr_bonus",
+							"location": "skull",
+							"amount": 3
+						}
+					]
+				}
+			],
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "7.5 lb"
+			}
+		},
+		{
+			"id": "c8b96866-d003-4369-a7eb-4f78b07c25d3",
+			"type": "equipment",
+			"description": "Psychite tea",
+			"notes": "When drank, the tea makes you happy, makes you slightly pain resistant, and you lose energy slightly slower. It is a psychedelic, and can make you hallucinate. It can be addictive. One unit is one cup of tea.",
+			"legality_class": "4",
+			"tags": [
+				"Drug"
+			],
+			"quantity": 1,
+			"value": 16,
+			"weight": "0.25 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 16,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "8b0b8bc1-7de8-4402-a30d-e556846701d8",
+			"type": "equipment",
+			"description": "Pump shotgun, 12 gauge",
+			"notes": "An ancient design of shotgun that emits a tight-packed spray of pellets. Deadly, but short range.",
+			"tech_level": "7",
+			"legality_class": "3",
+			"tags": [
+				"Firearm"
+			],
+			"quantity": 1,
+			"value": 135,
+			"weight": "1.1 lb",
+			"weapons": [
+				{
+					"id": "bc5f3b76-adbe-4fdb-b97f-26d1fc2c5b98",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi",
+						"base": "1d+1"
+					},
+					"strength": "10†",
+					"accuracy": "3",
+					"range": "50/125",
+					"rate_of_fire": "2x9",
+					"shots": "5(3i)",
+					"bulk": "-5",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						}
+					],
+					"calc": {
+						"damage": "1d+1 pi"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 135,
+				"extended_weight": "1.1 lb"
+			}
+		},
+		{
+			"id": "3d866bdf-f4ab-47cb-8121-0d14840e64eb",
+			"type": "equipment",
+			"description": "Radio, two-way",
+			"notes": "A two-way radio. It has solar powered batteries and can last for years without dying. Crucial for teams of survivalists.",
+			"tech_level": "8",
+			"legality_class": "4",
+			"tags": [
+				"Survival"
+			],
+			"quantity": 1,
+			"value": 150,
+			"weight": "1 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 150,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "71dc4544-10e9-4cff-99fa-ec038e7f7ef0",
+			"type": "equipment",
+			"description": "Recon Armor Helmet",
+			"notes": "Recon Armor is a semi-rare body armor, which can be crafted by any great craftsman with the right technology and materials. It is extremely powerful, although Cataphract armor is better.",
+			"tech_level": "11",
+			"legality_class": "2",
+			"tags": [
+				"Armor"
+			],
+			"modifiers": [
+				{
+					"id": "680c8d17-2b41-439e-aefb-3d72898db204",
+					"type": "eqp_modifier",
+					"name": "Prestige",
+					"notes": "Made with gold in some areas. Makes the user happy.",
+					"cost_type": "to_base_cost",
+					"disabled": true,
+					"cost": "x3",
+					"weight": "+5 lb",
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"situation": "from others who see your armor",
+							"amount": 1
+						}
+					]
+				}
+			],
+			"quantity": 1,
+			"value": 4000,
+			"weight": "7 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "skull",
+					"amount": 35
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 4000,
+				"extended_weight": "7 lb"
+			}
+		},
+		{
+			"id": "9f243fa2-bdcb-46e1-8529-6eff1bd24f4e",
+			"type": "equipment",
+			"description": "Recon Body Armor",
+			"notes": "Recon Armor is a semi-rare body armor, which can be crafted by any great craftsman with the right technology and materials. It is extremely powerful, although Cataphract armor is better.",
+			"tech_level": "11",
+			"legality_class": "2",
+			"tags": [
+				"Armor"
+			],
+			"modifiers": [
+				{
+					"id": "506d5209-97d6-446d-a05e-0508f22e4246",
+					"type": "eqp_modifier",
+					"name": "Prestige",
+					"notes": "Made with gold in some areas. Makes the user happy.",
+					"cost_type": "to_base_cost",
+					"disabled": true,
+					"cost": "x3",
+					"weight": "+5 lb",
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"situation": "from others who see your armor",
+							"amount": 1
+						}
+					]
+				}
+			],
+			"quantity": 1,
+			"value": 13500,
+			"weight": "45 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "vacc suit"
+						}
+					}
+				]
+			},
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "abdomen",
+					"amount": 35
+				},
+				{
+					"type": "dr_bonus",
+					"location": "neck",
+					"amount": 35
+				},
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 50
+				},
+				{
+					"type": "dr_bonus",
+					"location": "vitals",
+					"amount": 50
+				},
+				{
+					"type": "dr_bonus",
+					"location": "groin",
+					"amount": 35
+				},
+				{
+					"type": "dr_bonus",
+					"location": "arm",
+					"amount": 35
+				},
+				{
+					"type": "dr_bonus",
+					"location": "hand",
+					"amount": 35
+				},
+				{
+					"type": "dr_bonus",
+					"location": "leg",
+					"amount": 35
+				},
+				{
+					"type": "dr_bonus",
+					"location": "foot",
+					"amount": 35
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 13500,
+				"extended_weight": "45 lb"
+			}
+		},
+		{
+			"id": "e0aad137-b4d5-4c3b-ae4b-aae772dc29f8",
+			"type": "equipment",
+			"description": "Revolver, .44 magnum",
+			"notes": "An ancient pattern double-action revolver, fit for a cowboy.",
+			"tech_level": "6",
+			"legality_class": "3",
+			"tags": [
+				"Firearm"
+			],
+			"quantity": 1,
+			"value": 135,
+			"weight": "1.1 lb",
+			"weapons": [
+				{
+					"id": "35486582-f473-482d-b783-57fadb958c77",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi+",
+						"base": "3d"
+					},
+					"strength": "11",
+					"accuracy": "2",
+					"range": "200/2,500",
+					"rate_of_fire": "3",
+					"shots": "6(3i)",
+					"bulk": "-3",
+					"recoil": "4",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						}
+					],
+					"calc": {
+						"damage": "3d pi+"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 135,
+				"extended_weight": "1.1 lb"
+			}
+		},
+		{
+			"id": "29af86dd-19d1-40b7-a459-4c3357aa076f",
+			"type": "equipment",
+			"description": "Rope",
+			"notes": "A long piece of thick rope.",
+			"tech_level": "1",
+			"legality_class": "4",
+			"tags": [
+				"Survival"
+			],
+			"quantity": 1,
+			"value": 20,
+			"weight": "2 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 20,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "75cb0a05-c3f2-4e51-b189-c1dbe893de9f",
+			"type": "equipment",
+			"description": "Shield Belt",
+			"notes": "Shield Belts are a technological wonder. They can resist projectiles, reducing their damage to almost none, but melee negates the defensive abilities. Along with this, you cannot shoot out of a Shield Belt with projectiles.",
+			"tech_level": "10",
+			"legality_class": "2",
+			"tags": [
+				"Utility"
+			],
+			"quantity": 1,
+			"value": 1200,
+			"weight": "6 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "all",
+					"specialization": "melee",
+					"amount": -30
+				},
+				{
+					"type": "dr_bonus",
+					"location": "all",
+					"amount": 30
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 1200,
+				"extended_weight": "6 lb"
+			}
+		},
+		{
+			"id": "6abcaa80-c0fd-4713-9c08-f7aa19ea3e75",
+			"type": "equipment",
+			"description": "Shortbow",
+			"notes": "A shortbow used by tribals. ",
+			"tech_level": "0",
+			"legality_class": "4",
+			"tags": [
+				"Bow"
+			],
+			"quantity": 1,
+			"value": 50,
+			"weight": "2.5 lb",
+			"weapons": [
+				{
+					"id": "2dabd050-a565-46e6-87a5-059efb4678f2",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "1"
+					},
+					"strength": "10†",
+					"accuracy": "2",
+					"range": "x15/x20",
+					"rate_of_fire": "1",
+					"shots": "1(2)",
+					"bulk": "-7",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Bow"
+						}
+					],
+					"calc": {
+						"damage": "thr+1 imp"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "2.5 lb"
+			}
+		},
+		{
+			"id": "1509eed9-c736-46bd-9441-76a879fa05c3",
+			"type": "equipment",
+			"description": "Silver",
+			"notes": "The universal trading currency. It is said that Silver is backed by Gold. It is also said that it keeps its concrete value in the idea that one quart of water is one silver.",
+			"legality_class": "4",
+			"tags": [
+				"Currency"
+			],
+			"quantity": 1,
+			"value": 1,
+			"weight": "0.05 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 1,
+				"extended_weight": "0.05 lb"
+			}
+		},
+		{
+			"id": "bf4f9816-1537-49f1-bad5-9b3140e02481",
+			"type": "equipment",
+			"description": "Simple Helmet",
+			"notes": "A simple helmet used by soldiers, civilians, and anyone who needs a nice military-grade helmet.",
+			"tech_level": "6",
+			"legality_class": "3",
+			"tags": [
+				"Armor"
+			],
+			"modifiers": [
+				{
+					"id": "644466f4-65b3-445b-a1c7-8b87e6b0dd56",
+					"type": "eqp_modifier",
+					"name": "Face Visor",
+					"notes": "Protects the face.",
+					"cost_type": "to_base_cost",
+					"disabled": true,
+					"cost": "+0.5 CF",
+					"weight": "+1 lb",
+					"features": [
+						{
+							"type": "dr_bonus",
+							"location": "face",
+							"amount": 2
+						},
+						{
+							"type": "dr_bonus",
+							"location": "eye",
+							"amount": 2
+						}
+					]
+				}
+			],
+			"quantity": 1,
+			"value": 550,
+			"weight": "4 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "skull",
+					"amount": 3
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 550,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "e832e231-11b7-43f9-a6f4-7445bc6c647c",
+			"type": "equipment",
+			"description": "Skilltrainer",
+			"notes": "Skilltrainers are ultra-tech wonders, that train anyone in a skill by inserting a needle into the eye and administering a dose of mechanites. It gives one skill level in any skill chosen, and are one use.",
+			"tech_level": "11",
+			"legality_class": "4",
+			"tags": [
+				"Utility"
+			],
+			"quantity": 1,
+			"value": 8000,
+			"weight": "1 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 8000,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "64b144f0-8ec2-49e3-a89d-c546e81a3781",
+			"type": "equipment",
+			"description": "Smokeleaf Joint",
+			"notes": "Smokeleaf Joints are a social drug, which aren't too addictive. They make you happy, but make you hungry and you lose a slight bit of conciousness. They are cheap to make, and most people use them. One unit is one joint.",
+			"legality_class": "4",
+			"tags": [
+				"Drug"
+			],
+			"quantity": 1,
+			"value": 12,
+			"weight": "0.05 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 12,
+				"extended_weight": "0.05 lb"
+			}
+		},
+		{
+			"id": "c8eda15a-1321-4fbf-8c32-02de0ae3028a",
+			"type": "equipment",
+			"description": "Sniper Rifle, 5.56mm",
+			"notes": "An ancient design of precision sniper rifle. Bolt action. It has an exceptionally long range, great accuracy and good power.",
+			"tech_level": "7",
+			"legality_class": "1",
+			"tags": [
+				"Firearm"
+			],
+			"quantity": 1,
+			"value": 650,
+			"weight": "8 lb",
+			"weapons": [
+				{
+					"id": "244bbcba-341a-49ad-b4b9-5f87b5c2d360",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi+",
+						"base": "5d"
+					},
+					"strength": "12†",
+					"accuracy": "5+2",
+					"range": "1,000/3,500",
+					"rate_of_fire": "1",
+					"shots": "3+1(3)",
+					"bulk": "-5",
+					"recoil": "4",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						}
+					],
+					"calc": {
+						"damage": "5d pi+"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 650,
+				"extended_weight": "8 lb"
+			}
+		},
+		{
+			"id": "962ed6eb-bf96-4326-85ab-e8b6455fc9fc",
+			"type": "equipment",
+			"description": "Spear",
+			"notes": "A weapon used by hunters on Tribalworlds. Can also be thrown.",
+			"tech_level": "0",
+			"legality_class": "4",
+			"tags": [
+				"Melee Weapon"
+			],
+			"quantity": 1,
+			"value": 40,
+			"weight": "4 lb",
+			"weapons": [
+				{
+					"id": "a0ab4b29-3d89-4e1a-b631-242a5dd9061a",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "2"
+					},
+					"strength": "9",
+					"usage": "Thrust",
+					"reach": "1*",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Blunt"
+						},
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Spear"
+						},
+						{
+							"type": "skill",
+							"name": "Polearm",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Staff",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"damage": "thr+2 imp"
+					}
+				},
+				{
+					"id": "c08a3872-56ac-438a-91af-b5164b8af563",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "3"
+					},
+					"strength": "9†",
+					"usage": "Thrust",
+					"reach": "1-2*",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Blunt"
+						},
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Spear"
+						},
+						{
+							"type": "skill",
+							"name": "Polearm",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Staff",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"damage": "thr+3 imp"
+					}
+				},
+				{
+					"id": "144a40da-e63e-47c5-86df-45782f6c5c35",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "3"
+					},
+					"strength": "9",
+					"usage": "Thrown",
+					"accuracy": "2",
+					"range": "x1/x1.5",
+					"rate_of_fire": "1",
+					"shots": "T",
+					"bulk": "-6",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Blunt"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Thrown Weapon",
+							"specialization": "Spear"
+						},
+						{
+							"type": "skill",
+							"name": "Spear Thrower",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Thrown Weapon",
+							"specialization": "Harpoon",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"damage": "thr+3 imp"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 40,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "21f3051d-f1c5-4870-8dbb-c3370658560f",
+			"type": "equipment",
+			"description": "SMG, 9mm",
+			"notes": "A nice military SMG, with an installed grip to reduce recoil.",
+			"tech_level": "8",
+			"legality_class": "2",
+			"tags": [
+				"Firearm"
+			],
+			"quantity": 1,
+			"value": 380,
+			"weight": "4.5 lb",
+			"weapons": [
+				{
+					"id": "35486582-f473-482d-b783-57fadb958c77",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi+",
+						"base": "2d+1"
+					},
+					"strength": "10",
+					"accuracy": "2",
+					"range": "200/2,500",
+					"rate_of_fire": "9!",
+					"shots": "35+1(3)",
+					"bulk": "-4*",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						}
+					],
+					"calc": {
+						"damage": "2d+1 pi+"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 380,
+				"extended_weight": "4.5 lb"
+			}
+		},
+		{
+			"id": "6d06875b-687f-4de2-8ac9-98b89acb252f",
+			"type": "equipment",
+			"description": "Light SMG, 9mm",
+			"notes": "A very mobile, but illegal, sub machinegun. It is often used by bandits for run and gun or drive-by missions.",
+			"tech_level": "8",
+			"legality_class": "2",
+			"tags": [
+				"Firearm"
+			],
+			"quantity": 1,
+			"value": 380,
+			"weight": "4.5 lb",
+			"weapons": [
+				{
+					"id": "35486582-f473-482d-b783-57fadb958c77",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "pi+",
+						"base": "2d+1"
+					},
+					"strength": "11",
+					"accuracy": "1",
+					"range": "200/2,000",
+					"rate_of_fire": "9!",
+					"shots": "20+1(3)",
+					"bulk": "-2",
+					"recoil": "3",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Guns"
+						},
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						}
+					],
+					"calc": {
+						"damage": "2d+1 pi+"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 380,
+				"extended_weight": "4.5 lb"
+			}
+		},
+		{
+			"id": "93367cc9-36a3-4a10-b81c-c472dd341849",
+			"type": "equipment",
+			"description": "Sugar, one pound",
+			"notes": "One pound of sugar, which can make coffee and tea better. Tastes sweet.",
+			"tech_level": "0",
+			"legality_class": "4",
+			"tags": [
+				"Food"
+			],
+			"quantity": 1,
+			"value": 40,
+			"weight": "1 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 40,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "0f04fede-c384-41eb-b38a-60b47a77c76b",
+			"type": "equipment",
+			"description": "Survival Meal",
+			"notes": "One meal. Could be hardtack, canned food, jerky, or anything that will last a while.",
+			"tech_level": "0",
+			"legality_class": "4",
+			"tags": [
+				"Food",
+				"Survival"
+			],
+			"quantity": 1,
+			"value": 10,
+			"weight": "0.5 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "be5b8091-02cb-4557-9107-8e8820585e3c",
+			"type": "equipment",
+			"description": "Sword",
+			"notes": "A classic one-handed sword. Perfect for cutting down tribals.",
+			"tech_level": "2",
+			"legality_class": "4",
+			"tags": [
+				"Melee Weapon"
+			],
+			"quantity": 1,
+			"value": 400,
+			"weight": "2 lb",
+			"weapons": [
+				{
+					"id": "12c9f475-1517-434b-9a98-b89941370fd2",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cut",
+						"st": "sw"
+					},
+					"strength": "8",
+					"usage": "Swung",
+					"reach": "1",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Sword"
+						},
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword"
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Jitte/Sai",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Knife",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Saber",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Smallsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Tonfa",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Sword!"
+						}
+					],
+					"calc": {
+						"damage": "sw cut"
+					}
+				},
+				{
+					"id": "c0366cd4-e9df-4ea5-b114-3fa3850b6dd5",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "imp",
+						"st": "thr"
+					},
+					"strength": "8",
+					"usage": "Thrust",
+					"reach": "1",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Sword"
+						},
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword"
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Jitte/Sai",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Knife",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Saber",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Smallsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Tonfa",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Sword!"
+						}
+					],
+					"calc": {
+						"damage": "thr imp"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 400,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "f313880f-689f-43b2-b862-b89621f7979f",
+			"type": "equipment",
+			"description": "Tea, one pound",
+			"notes": "One pound of tea, which will last a person thirty days. Makes people happy.",
+			"tech_level": "0",
+			"legality_class": "4",
+			"tags": [
+				"Food"
+			],
+			"quantity": 1,
+			"value": 25,
+			"weight": "1 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 25,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "1c25e689-5c75-487b-ad9e-4c92f626868d",
+			"type": "equipment",
+			"description": "Tent, one-man",
+			"notes": "A one-man tent. Can also fit a bedroll and a backpack, so bandits can't get to them.",
+			"tech_level": "0",
+			"legality_class": "4",
+			"tags": [
+				"Survival"
+			],
+			"quantity": 1,
+			"value": 25,
+			"weight": "6 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 25,
+				"extended_weight": "6 lb"
+			}
+		},
+		{
+			"id": "1e69a633-ed5f-4152-a820-d7d48f9b94f2",
+			"type": "equipment",
+			"description": "Toughskin Gland",
+			"notes": "A Toughskin Gland. Can be purchased with a one-point accessory purchase.",
+			"tech_level": "10",
+			"legality_class": "4",
+			"tags": [
+				"Bionic"
+			],
+			"quantity": 1,
+			"value": 2200,
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "all",
+					"amount": 1
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 2200,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "97322ba4-3f12-4ad2-9c80-a6b8e3f3f18c",
+			"type": "equipment",
+			"description": "Wake-up",
+			"notes": "Wake-up is a potent drug that wakes you up instantly. When high on Wake-up, you work twice as fast, and you lose energy extremely slowly. If this drug is abused, heart attacks can be induced, which have the chance of being fatal. This is also extremely addictive. One unit is one dose. ",
+			"legality_class": "3",
+			"tags": [
+				"Drug"
+			],
+			"quantity": 1,
+			"value": 120,
+			"weight": "0.05 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 120,
+				"extended_weight": "0.05 lb"
+			}
+		},
+		{
+			"id": "70e7ab49-a063-4df6-978a-26289ca3b44c",
+			"type": "equipment",
+			"description": "Plate Helmet",
+			"notes": "A plate helmet, clunky but protecting. Protects the face as well as the skull. All ranged attacks have a -1 to hit from poor visibility.",
+			"tech_level": "0",
+			"legality_class": "4",
+			"tags": [
+				"Armor"
+			],
+			"quantity": 1,
+			"value": 40,
+			"weight": "6 lb",
+			"features": [
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Guns!"
+					},
+					"amount": -1
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Bow!"
+					},
+					"amount": -1
+				},
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Artillery!"
+					},
+					"amount": -1
+				},
+				{
+					"type": "dr_bonus",
+					"location": "skull",
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"location": "face",
+					"amount": 2
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 40,
+				"extended_weight": "6 lb"
+			}
+		},
+		{
+			"id": "cd7e87cc-f3a1-4cc6-97ec-5d2128bfa736",
+			"type": "equipment",
+			"description": "War Mask",
+			"notes": "A tribal warmask used by some spacers to intimidate prisoners.",
+			"tech_level": "0",
+			"legality_class": "4",
+			"tags": [
+				"Armor"
+			],
+			"quantity": 1,
+			"value": 40,
+			"weight": "6 lb",
+			"features": [
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Warden"
+					},
+					"tags": {
+						"compare": "is",
+						"qualifier": "Social"
+					},
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"location": "face",
+					"amount": 1
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 40,
+				"extended_weight": "6 lb"
+			}
+		},
+		{
+			"id": "882b3392-16f0-4e2c-9043-de3eb294ea9d",
+			"type": "equipment",
+			"description": "Wooden Armor",
+			"notes": "Basic wooden armor, that barely protects the chest. Breaks after more than ten damage is done to it.",
+			"tech_level": "0",
+			"legality_class": "4",
+			"tags": [
+				"Armor"
+			],
+			"quantity": 1,
+			"value": 45,
+			"weight": "5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 2
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 45,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "0bbfabed-0759-453e-a453-b624e9dac54a",
+			"type": "equipment",
+			"description": "Gambeson",
+			"notes": "A gambeson, used by medieval peons to defend themselves. Built to only defend against cutting attacks from knifes and swords.",
+			"tech_level": "0",
+			"legality_class": "4",
+			"tags": [
+				"Armor"
+			],
+			"quantity": 1,
+			"value": 45,
+			"weight": "5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"specialization": "cutting",
+					"amount": 3
+				},
+				{
+					"type": "dr_bonus",
+					"location": "torso",
+					"amount": 1
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 45,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "e0475b68-05a3-4a69-8511-970530e3ede2",
+			"type": "equipment",
+			"description": "Watch",
+			"notes": "A nice smartwatch, that lists the local time, quadrum, date, your bpm, and other facts.",
+			"tech_level": "8",
+			"legality_class": "4",
+			"tags": [
+				"Survival"
+			],
+			"quantity": 1,
+			"value": 40,
+			"equipped": true,
+			"calc": {
+				"extended_value": 40,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "f7700814-56c5-4074-9155-dd683139d65e",
+			"type": "equipment",
+			"description": "Waterproof Tarp",
+			"notes": "A nice waterproof tarp.",
+			"tech_level": "7",
+			"legality_class": "4",
+			"tags": [
+				"Survival"
+			],
+			"quantity": 1,
+			"value": 35,
+			"weight": "2 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 35,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "44bf7432-b406-4c4c-99c4-af0dbecae6b6",
+			"type": "equipment",
+			"description": "Wrist-Computer",
+			"notes": "A bulky wrist computer that displays many, many facts about the area, including radiation, humidity, radio-signals, and can help scan for injuries.",
+			"tech_level": "10",
+			"legality_class": "4",
+			"tags": [
+				"Survival"
+			],
+			"quantity": 1,
+			"value": 600,
+			"weight": "1.5 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 600,
+				"extended_weight": "1.5 lb"
+			}
+		},
+		{
+			"id": "6786712f-f75a-4904-bcbb-e265871450c5",
+			"type": "equipment",
+			"description": "Yayo",
+			"notes": "When you take yayo, you gain the trait \"High pain Threshold\", you are significantly happier, and you lose sleep and energy slower. One Unit is one dose. You also move one yard per second faster when high on Yayo. This is a very addictive drug. ",
+			"legality_class": "2",
+			"tags": [
+				"Drug"
+			],
+			"quantity": 1,
+			"value": 21,
+			"weight": "0.05 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 21,
+				"extended_weight": "0.05 lb"
+			}
+		},
+		{
+			"id": "4aeeea32-a9dd-44b5-af8b-ae0ddf089f1d",
+			"type": "equipment",
+			"description": "Zeushammer",
+			"notes": "The Zeushammer shuts down electrical devices for 2d seconds on contact. See description for Personas.",
+			"tech_level": "10",
+			"legality_class": "1",
+			"tags": [
+				"Melee Weapon"
+			],
+			"modifiers": [
+				{
+					"id": "76b95071-2023-4d72-bf6d-2444cd0f4eee",
+					"type": "eqp_modifier",
+					"name": "Mood Enhancing Persona",
+					"notes": "This persona increases the mood of the bonded user.",
+					"disabled": true,
+					"cost": "+1000"
+				},
+				{
+					"id": "98e26db9-c5b8-4143-83e7-23f0486563ef",
+					"type": "eqp_modifier",
+					"name": "Kill-thrist Persona",
+					"notes": "This negates any bad mood from killing, and rather flips it. It also increases your damage by one point per die. This persona will become angry if it hasn't killed anyone in some time.",
+					"disabled": true,
+					"cost": "+1250",
+					"features": [
+						{
+							"type": "weapon_bonus",
+							"selection_type": "this_weapon",
+							"name": {
+								"compare": "is"
+							},
+							"level": {
+								"compare": "at_least"
+							},
+							"amount": 1,
+							"per_die": true
+						}
+					]
+				}
+			],
+			"quantity": 1,
+			"value": 3500,
+			"weight": "2.5 lb",
+			"weapons": [
+				{
+					"id": "63df14d1-e65e-4b93-8e93-d060706e9b55",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "imp",
+						"st": "sw",
+						"base": "3"
+					},
+					"strength": "12‡",
+					"usage": "Swung",
+					"usage_notes": "Shuts down technological devices when hit",
+					"reach": "1-2*",
+					"parry": "0U",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Blunt"
+						},
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Axe/Mace"
+						},
+						{
+							"type": "skill",
+							"name": "Axe/Mace",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Polearm",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Flail",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "sw+3 imp"
+					}
+				},
+				{
+					"id": "77e4b3fd-684f-49d1-8c8f-35a32a0b099f",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "thr",
+						"base": "-1"
+					},
+					"strength": "12‡",
+					"usage": "Thrust",
+					"usage_notes": "Shuts down technological devices when hit",
+					"reach": "1-2*",
+					"parry": "0U",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Blunt"
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Axe/Mace"
+						},
+						{
+							"type": "skill",
+							"name": "Axe/Mace",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Polearm",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Flail",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -5
+						}
+					],
+					"calc": {
+						"damage": "thr-1 cr"
+					}
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 3500,
+				"extended_weight": "2.5 lb"
+			}
+		}
+	]
+}
